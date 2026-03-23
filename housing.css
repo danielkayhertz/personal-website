@@ -85,6 +85,15 @@ body {
   color: #5a3a18;
 }
 
+/* ── Header image ── */
+
+.header-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
 /* ── Main content ── */
 
 main {
