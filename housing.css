@@ -90,6 +90,7 @@ body {
 main {
   max-width: 740px;
   margin: 0 auto;
+  margin-left: 230px;
   padding: 3rem 3.5rem 6rem 3rem;
 }
 
@@ -225,7 +226,11 @@ figcaption {
 /* ── Mobile ── */
 
 @media (max-width: 800px) {
+  .sidebar {
+    display: none;
+  }
   main {
+    margin-left: 0;
     padding: 1.5rem 1.25rem 4rem;
   }
 }
