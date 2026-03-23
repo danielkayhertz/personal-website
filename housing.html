@@ -11,12 +11,10 @@
 </head>
 <body>
 
-<button class="nav-toggle" id="navToggle" aria-expanded="true" aria-controls="sidebar">✕ Close</button>
-
 <div class="layout">
 
   <!-- ── Sidebar navigation ── -->
-  <nav class="sidebar open" id="sidebar" aria-label="Page navigation">
+  <nav class="sidebar" aria-label="Page navigation">
   <div class="sidebar-inner">
     <a class="nav-home" href="index.html">← Home</a>
     <ul class="nav-list">
@@ -371,22 +369,5 @@
   </main>
 </div>
 
-<script>
-  const toggle = document.getElementById('navToggle');
-  const sidebar = document.getElementById('sidebar');
-  toggle.addEventListener('click', () => {
-    const isOpen = sidebar.classList.toggle('open');
-    toggle.setAttribute('aria-expanded', isOpen);
-    toggle.textContent = isOpen ? '✕ Close' : 'Contents';
-  });
-  // Close sidebar when a nav link is clicked
-  sidebar.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', () => {
-      sidebar.classList.remove('open');
-      toggle.setAttribute('aria-expanded', false);
-      toggle.textContent = 'Contents';
-    });
-  });
-</script>
 </body>
 </html>
