@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Courier+Prime:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="art.css">
+</head>
+<body>
+
+<main>
+  <a class="page-home" href="index.html">← Home</a>
+  <h1>Some art that I like.</h1>
+  <div id="gallery"></div>
+</main>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox hidden" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close image">✕</button>
+  <img id="lightboxImg" src="" alt="" draggable="false">
+</div>
+
+<script>
+const artists = [
+  {
+    name: "Alfredo Castañeda",
+    images: [
+      { file: "Alfredo Castañeda.jfif" },
+      { file: "Alfredo Castañeda 2.jfif" },
+      { file: "Alfredo Castañeda 3.jfif" },
+      { file: "Alfredo Castañeda 4.jfif" },
+      { file: "Alfredo Castañeda 5.jfif" },
+      { file: "Alfredo Castañeda 6.jfif" },
+      { file: "Alfredo Castañeda 7.jfif" },
+      { file: "Alfredo Castañeda 8.jfif" },
+    ]
+  },
+  {
+    name: "Andrew Wyeth",
+    images: [{ file: "Andrew Wyeth.jfif" }]
+  },
+  {
+    name: "Bernie DeChant",
+    images: [{ file: "Bernie DeChant - Brasilia.jfif", caption: "Brasilia" }]
+  },
+  {
+    name: "C.S. Lewis",
+    images: [{ file: "C.S. Lewis.jfif" }]
+  },
+  {
+    name: "Carroll Cloar",
+    images: [{ file: "Carroll Cloar - Sun Sinking into Tyronza River 1955.jfif", caption: "Sun Sinking into Tyronza River 1955" }]
+  },
+  {
+    name: "Charles Turzak",
+    images: [{ file: "Charles Turzak - The Workers.jfif", caption: "The Workers" }]
+  },
+  {
+    name: "Chiang Lee",
+    images: [
+      { file: "Chiang Lee 1.jfif" },
+      { file: "Chiang Lee 2.jfif" },
+      { file: "Chiang lee 3.jfif" },
+      { file: "Chiang Lee 4.jfif" },
+    ]
+  },
+  {
+    name: "Children's books",
+    images: [
+      { file: "Childrens books.png" },
+      { file: "Childrens books 2.png" },
+      { file: "Childrens books 3.png" },
+    ]
+  },
+  {
+    name: "de Chirico",
+    images: [{ file: "de Chirico.jfif" }]
+  },
+  {
+    name: "Edna St. Vincent Millay",
+    images: [{ file: "Edna St. Vincent Millay (by Katie Kadue).jfif", caption: "by Katie Kadue" }]
+  },
+  {
+    name: "Egon Schiele",
+    images: [{ file: "Egon Schiele Girl With Hood.jfif", caption: "Girl With Hood" }]
+  },
+  {
+    name: "Eyvind Earl",
+    images: [{ file: "Eyvind Earl.jfif" }]
+  },
+  {
+    name: "Francesca Woodman",
+    images: [
+      { file: "Francesca Woodman.jfif" },
+      { file: "Francesca Woodman 2.jfif" },
+      { file: "Francesca Woodman 3.jfif" },
+      { file: "Francesca Woodman 4.jfif" },
+    ]
+  },
+  {
+    name: "Franco Matticchio",
+    images: [{ file: "Franco Matticchio.jfif" }]
+  },
+  {
+    name: "Frederic Jameson",
+    images: [{ file: "Frederic Jameson.png" }]
+  },
+  {
+    name: "Getting Ready for a Visit",
+    images: [{ file: "Getting Ready for a Visit.jfif" }]
+  },
+  {
+    name: "Goro Sasaki",
+    images: [{ file: "Goro Sasaki 1988.jfif", caption: "1988" }]
+  },
+  {
+    name: "Grand Gulch Primitive Area, Utah",
+    images: [{ file: "Grand Gulch Primitive Area, Utah.jfif" }]
+  },
+  {
+    name: "Helen Sewell",
+    images: [{ file: "Helen Sewell - Midnight Sun 1952.jfif", caption: "Midnight Sun 1952" }]
+  },
+  {
+    name: "Henri Rivière",
+    images: [
+      { file: "Henri Rivière 1.jfif" },
+      { file: "Henri Rivière 2.jfif" },
+      { file: "Henri Rivière 3.jfif" },
+      { file: "Henri Rivière 4.jfif" },
+    ]
+  },
+  {
+    name: "Hiromi Nishizaka",
+    images: [{ file: "Hiromi Nishizaka.png" }]
+  },
+  {
+    name: "Maria Prymachenko",
+    images: [{ file: "Maria Prymachenko.jfif" }]
+  },
+  {
+    name: "Melissa Cody",
+    images: [
+      { file: "Melissa Cody 1.jfif" },
+      { file: "Melissa Cody 2.jfif" },
+      { file: "Melissa Cody 3.jfif" },
+      { file: "Melissa Cody 4.jfif" },
+    ]
+  },
+  {
+    name: "Nietzsche",
+    images: [{ file: "Nietzsche.jfif" }]
+  },
+  {
+    name: "Paul Serusier",
+    images: [{ file: "Paul Serusier.jfif" }]
+  },
+  {
+    name: "Phil Hays",
+    images: [{ file: "Phil Hays.jfif" }]
+  },
+  {
+    name: "Philip Guston",
+    images: [{ file: "Philip Guston.jfif" }]
+  },
+  {
+    name: "Psautier manuscript",
+    images: [{ file: "Psautier manuscript.jfif" }]
+  },
+  {
+    name: "Rafal Bujnowski",
+    images: [
+      { file: "Rafal Bujnowski paintings 1.jfif" },
+      { file: "Rafal Bujnowski paintings 2.png" },
+      { file: "Rafal Bujnowski paintings 3.png" },
+    ]
+  },
+  {
+    name: "Sam Adler-Bell",
+    images: [{ file: "Sam Adler-Bell.jfif" }]
+  },
+  {
+    name: "Victor Brauner",
+    images: [{ file: "Victor Brauner.jfif" }]
+  },
+  {
+    name: "Yamaguchi Gen",
+    images: [{ file: "Yamaguchi Gen - Human Beings.png", caption: "Human Beings" }]
+  },
+  {
+    name: "You and I are Earth",
+    images: [{ file: "You and I are Earth.jfif" }]
+  },
+  {
+    name: "[untitled]",
+    images: [{ file: "GXYIpxJWAAAwe09.jfif" }]
+  },
+];
+
+// ── Render gallery ──
+
+const gallery = document.getElementById('gallery');
+
+artists.forEach(artist => {
+  const section = document.createElement('section');
+
+  const h2 = document.createElement('h2');
+  h2.textContent = artist.name;
+  section.appendChild(h2);
+
+  const wrap = document.createElement('div');
+  wrap.className = 'shelf-wrap';
+
+  const shelf = document.createElement('div');
+  shelf.className = 'shelf';
+
+  artist.images.forEach(item => {
+    const btn = document.createElement('button');
+    btn.className = 'shelf-item';
+    btn.type = 'button';
+
+    const figure = document.createElement('figure');
+
+    const img = document.createElement('img');
+    img.src = `Art/${item.file}`;
+    img.alt = item.caption
+      ? `${artist.name} — ${item.caption}`
+      : artist.name;
+    img.loading = 'lazy';
+    img.decoding = 'async';
+    img.onerror = () => { figure.style.display = 'none'; };
+
+    figure.appendChild(img);
+
+    if (item.caption) {
+      const figcap = document.createElement('figcaption');
+      figcap.textContent = item.caption;
+      figure.appendChild(figcap);
+    }
+
+    btn.appendChild(figure);
+    btn.addEventListener('click', () => openLightbox(img.src, img.alt, btn));
+
+    shelf.appendChild(btn);
+  });
+
+  wrap.appendChild(shelf);
+  section.appendChild(wrap);
+  gallery.appendChild(section);
+});
+
+// ── Lightbox ──
+
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightboxImg');
+const lightboxClose = document.getElementById('lightboxClose');
+let lastTrigger = null;
+
+function openLightbox(src, altText, trigger) {
+  lastTrigger = trigger;
+  lightboxImg.src = src;
+  lightboxImg.alt = altText;
+  lightbox.classList.remove('hidden');
+  lightboxClose.focus();
+  document.addEventListener('keydown', handleLightboxKey);
+}
+
+function closeLightbox() {
+  lightbox.classList.add('hidden');
+  lightboxImg.src = '';
+  document.removeEventListener('keydown', handleLightboxKey);
+  if (lastTrigger) lastTrigger.focus();
+}
+
+function handleLightboxKey(e) {
+  if (e.key === 'Escape') {
+    closeLightbox();
+  } else if (e.key === 'Tab') {
+    // Only the close button is focusable inside the lightbox
+    e.preventDefault();
+    lightboxClose.focus();
+  }
+}
+
+// Close on overlay click, but not on image click
+lightbox.addEventListener('click', (e) => {
+  if (e.target === lightbox) closeLightbox();
+});
+
+lightboxClose.addEventListener('click', closeLightbox);
+</script>
+
+</body>
+</html>

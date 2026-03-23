@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Courier+Prime:ital@0;1&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4ecd8;
+  color: #1c1828;
+  font-family: 'Courier Prime', Courier, monospace;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── Page layout ── */
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 3rem 2.5rem 6rem;
+}
+
+.page-home {
+  display: block;
+  font-size: 0.8rem;
+  color: #5a3a18;
+  text-decoration: none;
+  margin-bottom: 2rem;
+}
+
+.page-home:hover {
+  color: #0f2040;
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #0f2040;
+  margin: 0 0 1rem;
+  line-height: 1.1;
+}
+
+.explainer {
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: #3a2a10;
+  max-width: 680px;
+  margin-bottom: 2.5rem;
+}
+
+/* ── Tab bar ── */
+
+.tab-bar {
+  display: flex;
+  gap: 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+  margin-bottom: 2rem;
+}
+
+.tab-btn {
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  padding: 0.5rem 1.2rem;
+  font-family: 'Courier Prime', Courier, monospace;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #5a3a18;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.tab-btn:hover {
+  color: #0f2040;
+}
+
+.tab-btn[aria-selected="true"] {
+  color: #0f2040;
+  border-bottom-color: #0f2040;
+}
+
+/* ── Era filter ── */
+
+.era-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.era-label {
+  font-size: 0.78rem;
+  color: #5a3a18;
+  margin-right: 0.25rem;
+}
+
+.era-btn {
+  background: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0.25rem 0.7rem;
+  font-family: 'Courier Prime', Courier, monospace;
+  font-size: 0.78rem;
+  color: #3a2a10;
+  cursor: pointer;
+}
+
+.era-btn:hover {
+  background: #ede4cc;
+}
+
+.era-btn.active {
+  background: #0f2040;
+  color: #f4ecd8;
+  border-color: #0f2040;
+}
+
+/* ── Download button ── */
+
+.download-btn {
+  display: inline-block;
+  background: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0.3rem 0.8rem;
+  font-family: 'Courier Prime', Courier, monospace;
+  font-size: 0.75rem;
+  color: #5a3a18;
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: auto;
+}
+
+.download-btn:hover {
+  background: #ede4cc;
+  color: #0f2040;
+}
+
+.era-bar .download-btn {
+  margin-left: auto;
+}
+
+/* ── Table ── */
+
+.table-wrap {
+  overflow-x: auto;
+  margin-bottom: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.data-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: max-content;
+  min-width: 100%;
+  font-size: 0.78rem;
+  line-height: 1.45;
+}
+
+.data-table th,
+.data-table td {
+  padding: 0.4rem 0.65rem;
+  text-align: left;
+  vertical-align: top;
+  white-space: pre-line;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  border-right: 1px solid rgba(0, 0, 0, 0.06);
+  min-width: 80px;
+  max-width: 220px;
+}
+
+/* Narrow columns that don't need much space */
+.data-table td:nth-child(1) { max-width: 140px; }  /* Use District */
+.data-table td:nth-child(2) { max-width: 120px; }  /* Density District */
+
+/* Wider columns with long regulatory text */
+.data-table td:nth-child(3),                         /* Volume */
+.data-table td:nth-child(6),                         /* MLA/unit */
+.data-table td:nth-child(12) {                       /* Parking */
+  max-width: 260px;
+}
+
+.data-table th {
+  background: #ede4cc;
+  font-weight: 700;
+  color: #0f2040;
+  position: sticky;
+  z-index: 1;
+  white-space: nowrap;
+}
+
+/* Category row (first header row) */
+.data-table .cat-row th {
+  top: 0;
+  border-bottom: none;
+  padding-top: 0.25rem;
+  padding-bottom: 0.1rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #5a3a18;
+  font-weight: 400;
+}
+
+.data-table .cat-row .cat-group {
+  background: #e8dfca;
+}
+
+.data-table .cat-row .cat-start {
+  border-left: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.data-table .cat-row .cat-end {
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+/* Column header row (second header row) */
+.data-table thead tr:nth-child(2) th {
+  top: 1.35rem;
+}
+
+/* Sticky first two columns */
+.data-table th:nth-child(1),
+.data-table td:nth-child(1) {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  background: #f4ecd8;
+  min-width: 60px;
+}
+
+.data-table th:nth-child(2),
+.data-table td:nth-child(2) {
+  position: sticky;
+  left: 60px;
+  z-index: 2;
+  background: #f4ecd8;
+  min-width: 120px;
+  border-right: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+/* Corner cells: sticky both ways */
+.data-table th:nth-child(1),
+.data-table th:nth-child(2) {
+  z-index: 4;
+  background: #ede4cc;
+}
+
+/* Header sticky column 2 */
+.data-table th:nth-child(2) {
+  left: 60px;
+  border-right: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+.data-table td:nth-child(1) {
+  font-weight: 700;
+  color: #3a2a10;
+}
+
+.data-table tbody tr:hover td {
+  background-color: #ede4cc;
+}
+
+/* Override sticky column background on hover */
+.data-table tbody tr:hover td:nth-child(1),
+.data-table tbody tr:hover td:nth-child(2) {
+  background-color: #e5dcc4;
+}
+
+/* ── Tab panels ── */
+
+.tab-panel {
+  display: none;
+}
+
+.tab-panel.active {
+  display: block;
+}
+
+/* ── Source cards ── */
+
+.source-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.source-card {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 1rem 1.25rem;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.source-year {
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #0f2040;
+  margin: 0 0 0.25rem;
+}
+
+.source-desc {
+  font-size: 0.78rem;
+  color: #3a2a10;
+  margin: 0 0 0.6rem;
+  line-height: 1.5;
+}
+
+.source-link {
+  font-size: 0.75rem;
+  color: #1a4a7a;
+  text-decoration: none;
+}
+
+.source-link:hover {
+  color: #0f2040;
+  text-decoration: underline;
+}
+
+.source-unavailable {
+  font-size: 0.75rem;
+  font-style: italic;
+  color: #8a7a60;
+}
+
+/* ── Mobile ── */
+
+@media (max-width: 600px) {
+  main {
+    padding: 2rem 1rem 4rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .explainer {
+    font-size: 0.82rem;
+  }
+
+  .era-bar {
+    gap: 0.35rem;
+  }
+
+  .tab-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.78rem;
+  }
+
+  .data-table th:nth-child(2),
+  .data-table td:nth-child(2) {
+    left: 50px;
+    min-width: 100px;
+  }
+
+  .data-table th:nth-child(1),
+  .data-table td:nth-child(1) {
+    min-width: 50px;
+  }
+}

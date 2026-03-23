@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Courier+Prime:ital@0;1&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4ecd8;
+  color: #1c1828;
+  font-family: 'Courier Prime', Courier, monospace;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── Page layout ── */
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2.5rem 6rem;
+}
+
+.page-home {
+  display: block;
+  font-size: 0.8rem;
+  color: #5a3a18;
+  text-decoration: none;
+  margin-bottom: 2rem;
+}
+
+.page-home:hover {
+  color: #0f2040;
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #0f2040;
+  margin: 0 0 3rem;
+  line-height: 1.1;
+}
+
+/* ── Artist sections ── */
+
+section {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #0f2040;
+  letter-spacing: 0.03em;
+  margin: 0 0 0.6rem;
+  text-transform: uppercase;
+}
+
+/* ── Shelf ── */
+
+.shelf-wrap {
+  position: relative;
+}
+
+/* Fade hint on right edge — suggests more content to scroll */
+.shelf-wrap::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 60px;
+  background: linear-gradient(to right, transparent, #f4ecd8);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.shelf {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  padding-bottom: 4px;
+}
+
+.shelf::-webkit-scrollbar {
+  display: none;
+}
+
+/* ── Shelf items ── */
+
+.shelf-item {
+  flex-shrink: 0;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.shelf-item:focus {
+  outline: 2px solid #0f2040;
+  outline-offset: 2px;
+}
+
+.shelf-item figure {
+  margin: 0;
+  padding: 0;
+}
+
+.shelf-item img {
+  height: 220px;
+  width: auto;
+  display: block;
+  max-width: none;
+}
+
+.shelf-item figcaption {
+  font-size: 0.72rem;
+  color: #7a5030;
+  margin-top: 0.35rem;
+  line-height: 1.3;
+  max-width: 180px;
+  font-style: italic;
+}
+
+/* ── Lightbox ── */
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 8, 20, 0.93);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.lightbox.hidden {
+  display: none;
+}
+
+.lightbox img {
+  max-width: 90vw;
+  max-height: 88vh;
+  object-fit: contain;
+  display: block;
+}
+
+.lightbox-close {
+  position: fixed;
+  top: 1.25rem;
+  right: 1.5rem;
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.75rem;
+  line-height: 1;
+  padding: 0.4rem 0.5rem;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.lightbox-close:hover,
+.lightbox-close:focus {
+  color: #fff;
+  outline: none;
+}
+
+/* ── Mobile ── */
+
+@media (max-width: 600px) {
+  main {
+    padding: 2rem 1.25rem 4rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+
+  .shelf-item img {
+    height: 160px;
+  }
+}

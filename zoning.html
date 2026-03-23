@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chicago Zoning History</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Courier+Prime:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="zoning.css">
+</head>
+<body>
+
+<main>
+  <a class="page-home" href="index.html">← Home</a>
+  <h1>Chicago Zoning History</h1>
+  <p class="explainer">A comparative dataset of zoning regulations across Chicago’s four major zoning ordinances: 1923, 1942, 1957, and 2004. Each ordinance restructured the city’s use districts, density controls, and development standards. The data covers use and density classifications, lot area, FAR, height limits, setbacks, and parking requirements as defined in each era’s code.</p>
+
+  <!-- Tab bar -->
+  <div class="tab-bar" role="tablist" aria-label="Page sections">
+    <button class="tab-btn" role="tab" id="tab-explore" aria-selected="true" aria-controls="panel-explore">Explore</button>
+    <button class="tab-btn" role="tab" id="tab-sources" aria-selected="false" aria-controls="panel-sources">Sources</button>
+  </div>
+
+  <!-- Explore panel -->
+  <div class="tab-panel active" id="panel-explore" role="tabpanel" aria-labelledby="tab-explore">
+    <div class="era-bar">
+      <span class="era-label">Era:</span>
+      <button class="era-btn active" data-year="1923">1923</button>
+      <button class="era-btn" data-year="1942">1942</button>
+      <button class="era-btn" data-year="1957">1957</button>
+      <button class="era-btn" data-year="2004">2004</button>
+      <button class="download-btn" id="downloadCsv">↓ Download CSV</button>
+    </div>
+    <div class="table-wrap">
+      <table class="data-table" id="dataTable">
+        <thead id="tableHead"></thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Sources panel -->
+  <div class="tab-panel" id="panel-sources" role="tabpanel" aria-labelledby="tab-sources">
+    <div class="source-list" id="sourceList"></div>
+  </div>
+</main>
+
+<script>
+const HEADERS = ["Year", "Use District", "Density District", "Volume", "MLA", "MLA/unit", "FAR", "Height", "Lot Coverage", "Front Setback", "Side Setback", "Rear Setback", "Parking"];
+
+const DATA = [
+  ["1923", "R or A", "1st Volume District", "10x lot area\n13x if corner\nAdd 0.2 for each 100 feet lot is below 3600 sq ft, max 2x add'l", "", "R: One unit\nA: Unlimited", "", "66 ft\n33 ft at street\n+2 ft for each 1 ft setback", "50%\n65% if corner", "R - 15% of avg block lot depth\nA - 10% of avg block lot depth\nIf block built out, existing building line", "1 ft setback for each 3 ft above 30 ft", "", "None"],
+  ["1923", "R or A", "2nd Volume District", "40x lot area\n50x if corner\nAdd 1% for each 100 ft lot is below 3600 sq ft, max 5% add'l", "", "R: One unit\nA: Unlimited", "", "132 ft\n66 ft at street\n+2 ft for each 1 ft setback\n1/3 bonus if frontage >120 ft, or w/i 150 ft of park, railway, or water", "60%\n75% if corner", "R - 15% of avg block lot depth\nA - 10% of avg block lot depth\nIf block built out, existing building line", "1 ft setback for each 3 ft above 30 ft", "", "None"],
+  ["1923", "R or A", "3rd Volume District", "100x lot area\n120x if corner\n1/8x bonus for tower if <25% of lot area", "", "R: One unit\nA: Unlimited", "", "198 ft\n132 ft at street\n+2 ft for each 1 ft setback\nUnlimited tower if <25% of lot area\n1/3 bonus if frontage >120 ft, or w/i 150 ft of park, railway, or water", "75%\n90% if corner", "R - 15% of avg block lot depth\nA - 10% of avg block lot depth\nIf block built out, existing building line", "None", "", "None"],
+  ["1923", "R or A", "4th Volume District", "100x lot area\n120x if corner\n1/8x bonus for tower if <25% of lot area", "", "R: One unit\nA: Unlimited", "", "198 ft\n132 ft at street\n+2 ft for each 1 ft setback\nUnlimited tower if <25% of lot area\n1/3 bonus if frontage >120 ft, or w/i 150 ft of park, railway, or water", "75%\n90% if corner", "R - 15% of avg block lot depth\nA - 10% of avg block lot depth\nIf block built out, existing building line", "None", "", "None"],
+  ["1923", "R or A", "5th Volume District", "100x lot area\n120x if corner\n1/8x bonus for tower if <25% of lot area", "", "R: One unit\nA: Unlimited", "", "198 ft\n132 ft at street\n+2 ft for each 1 ft setback\nUnlimited tower if <25% of lot area", "75%\n90% if corner", "R - 15% of avg block lot depth\nA - 10% of avg block lot depth\nIf block built out, existing building line", "None", "", "None"],
+  ["1923", "C", "1st Volume District", "36x lot area\n1/8x bonus for tower if <25% of lot area", "", "Unlimited", "", "66 ft\n33 ft at street\n+2 ft for each 1 ft setback\nUnlimited tower if <25% of lot area", "100%", "None", "1 ft setback for each 3 ft above 30 ft", "", "None"],
+  ["1923", "C", "2nd Volume District", "72x lot area\n1/8x bonus for tower if <25% of lot area", "", "Unlimited", "", "132 ft\n66 ft at street\n+2 ft for each 1 ft setback\nUnlimited tower if <25% of lot area\n1/3 bonus if frontage >120 ft, or w/i 150 ft of park, railway, or water", "100%", "None", "None", "", "None"],
+  ["1923", "C", "3rd Volume District", "144x lot area\n1/8x bonus for tower if <25% of lot area", "", "Unlimited", "", "198 ft\n132 ft at street\n+2 ft for each 1 ft setback\nUnlimited tower if <25% of lot area\n1/3 bonus if frontage >120 ft, or w/i 150 ft of park, railway, or water", "100%", "None", "None", "", "None"],
+  ["1923", "C", "4th Volume District", "216x lot area\n1/8x bonus for tower if <25% of lot area", "", "Unlimited", "", "264 ft\n198 ft at street\n+2 ft for each 1 ft setback\nUnlimited tower if <25% of lot area\n1/3 bonus if frontage >120 ft, or w/i 150 ft of park, railway, or water", "100%", "None", "None", "", "None"],
+  ["1923", "C", "5th Volume District", "Unlimited", "", "Unlimited", "", "Unlimited\n264 ft at street\n30 degree angle above\nUnlimited tower if <25% of lot area", "100%", "None", "None", "", "None"],
+  ["1957", "R", "1", "", "6250", "One unit", "0.5", "", "", "Lesser of 20 ft or 16% lot depth", "One story: Greater of 3 ft or 10% lot width\n>1 story: Greater of 3 ft or 15% lot width", "Greater of 2/3 building height or 30 ft", "1"],
+  ["1957", "R", "2", "", "5000", "One unit", "0.5", "", "", "Lesser of 20 ft or 16% lot depth", "One story: Greater of 2.5 ft or 10% lot width\n>1 story: Greater of 3 ft or 15% lot width", "Greater of 2/3 building height or 30 ft", "1"],
+  ["1957", "R", "3", "", "2500\n3750 for two-unit bldg", "", "0.7", "", "", "Lesser of 20 ft or 16% lot depth", "<25 ft height: 5 ft, minus 6\" for each foot lot width below 34\n>25 ft height: 1/5 building height", "Greater of 2/3 building height or 30 ft", "1"],
+  ["1957", "R", "4", "", "1800", "900 for DU\n600 for efficiency\n450 for lodging\nIf fronting a public space of 5 acres:\n780 for DU\n520 for efficiency\n390 for lodging", "1.2", "", "", "Lesser or 15 ft or 12% lot depth", "Not required", "30 ft", "0.75 per DU\n0.5 per efficiency\n0.25 per lodging unit"],
+  ["1957", "R", "5", "", "1800", "400 for DU\n265 for efficiency\n200 for lodging\nIf fronting a public space of 5 acres:\n350 for DU\n230 for efficiency\n175 for lodging", "2.2", "", "", "Lesser or 15 ft or 12% lot depth", "Not required", "30 ft", "0.75 per DU\n0.5 per efficiency\n0.25 per lodging unit"],
+  ["1957", "R", "6", "", "1800", "200 for DU\n175 for efficiency\n100 for lodging\nIf fronting a public space of 5 acres:\n175 for DU\n115 for efficiency\n90 for lodging", "4.4", "", "", "Lesser or 15 ft or 12% lot depth\nNone required if fronting public space of 5 acres", "Not required", "30 ft", "0.75 per DU\n0.5 per efficiency\n0.25 per lodging unit"],
+  ["1957", "R", "7", "", "1800", "145 for DU\n95 for efficiency\n75 for lodging\nIf fronting a public space of 5 acres:\n125 for DU\n85 for efficiency\n65 for lodging", "7", "", "", "Lesser or 15 ft or 12% lot depth\nNone required if fronting public space of 5 acres", "Not required", "30 ft", "0.6 per DU\n0.4 per efficiency\n0.167 per lodging unit"],
+  ["1957", "R", "8", "", "1800", "115 for DU\n75 for efficiency\n60 for lodging\nIf fronting public space of 5 acres:\n100 for DU\n65 for efficiency\n50 for lodging", "10", "", "", "Lesser or 15 ft or 12% lot depth\nNone required if fronting public space of 5 acres", "Not required", "30 ft", "0.6 per DU\n0.4 per efficiency\n0.167 per lodging unit"],
+  ["1957", "B/C", "1", "", "", "2500 for DU\n1650 for efficiency\n1200 for lodging", "1.2", "", "", "None", "None unless abutting residential district", "Resi: 30 feet at 2nd story", "1 per DU\n0.33 per lodging"],
+  ["1957", "B/C", "2", "", "", "900 for DU\n1250 for efficiency\n450 for lodging", "2.2", "", "", "None", "None unless abutting residential district", "Resi: 30 feet at 2nd story", "1 per DU\n0.33 per lodging"],
+  ["1957", "B/C", "3", "", "", "400 for DU\n265 for efficiency\n200 for lodging", "3", "", "", "None", "None unless abutting residential district", "Resi: 30 feet at 2nd story", "0.75 per DU\n0.5 per efficiency\n0.25 per lodging"],
+  ["1957", "B/C", "4", "", "", "200 for DU\n135 for efficiency\n100 for lodging", "5", "", "", "None", "None unless abutting residential district", "Resi: 30 feet at 2nd story", "0.75 per DU\n0.5 per efficiency\n0.25 per lodging"],
+  ["1957", "B/C", "5", "", "", "145 for DU\n95 for efficiency\n75 for lodging", "7", "", "", "None", "None unless abutting residential district", "Resi: 30 feet at 2nd story", "0.75 per DU\n0.5 per efficiency\n0.25 per lodging"],
+  ["1957", "B/C", "6", "", "", "Unlimited, or\n145 for DU\n95 for efficiency\n75 for lodging", "12\nFronting public space at least 5 acres: +15%\nVarious other bonuses", "", "", "None", "None unless abutting residential district", "None", "None for first 140k sq ft of building area; then 1 per 10k sq ft until 280k; then 1 per 5k until 560k; then 1 per 2500"],
+  ["1957", "B/C", "7", "", "", "Unlimited, or\n145 for DU\n95 for efficiency\n75 for lodging", "16\nFronting public space at least 5 acres: +15%\nVarious other bonuses", "", "", "None", "None unless abutting residential district", "None", "None for first 140k sq ft of building area; then 1 per 10k sq ft until 280k; then 1 per 5k until 560k; then 1 per 2500"],
+  ["2004", "RS", "1", "", "6250\nAs low as 3750 if contextual on block", "6250", "0.5", "30", "", "Lesser of 20 ft or 16% lot depth\nOr avg of nearest 4 lots", "Greater of 15% lot width or 5 ft", "Lesser of 28% lot depth or 50 ft for detached houses\nLesser of 30% lot depth or 50 ft for all other bldgs", "2"],
+  ["2004", "RS", "2", "", "5000\nAs low as 3750 if contextual on block", "5000", "0.65", "30", "", "Lesser of 20 ft or 16% lot depth\nOr avg of nearest 4 lots", "Greater of 15% lot width or 4 ft", "Lesser of 28% lot depth or 50 ft for detached houses\nLesser of 30% lot depth or 50 ft for all other bldgs", "2"],
+  ["2004", "RS", "3", "", "2500", "2500\nAs low as 1000 if contextual on block", "0.9", "30", "", "Lesser of 20 ft or 16% lot depth\nOr avg of nearest 4 lots", "Greater of 10% lot width or 2 ft", "Lesser of 28% lot depth or 50 ft for detached houses\nLesser of 30% lot depth or 50 ft for all other bldgs", "2 for detached house\n1 otherwise"],
+  ["2004", "RT", "3.5", "", "2500", "1250", "1.05", "35", "", "Lesser of 15 ft or 12% lot depth\nOr avg of nearest 4 lots", "Greater of 10% lot width or 2 ft", "Lesser of 28% lot depth or 50 ft for detached houses\nLesser of 30% lot depth or 50 ft for all other bldgs", "1\n\nGov't subsidized:\n<600 sq ft: 0.33\n600-1200: 0.7\n>1200: 1"],
+  ["2004", "RT", "4", "", "1650", "1000 for DU\n1000 for efficiency\n500 for SRO\n\nEfficiencies max 20% of units", "1.2", "38", "", "Lesser of 15 ft or 12% lot depth\nOr avg of nearest 4 lots", "Greater of 10% lot width or 2 ft", "Lesser of 28% lot depth or 50 ft for detached houses\nLesser of 30% lot depth or 50 ft for all other bldgs", "1\n\nGov't subsidized:\n<600 sq ft: 0.33\n600-1200: 0.7\n>1200: 1"],
+  ["2004", "RT", "4.5", "", "1650", "700 for DU\n700 for efficiency\n500 for SRO\n\nEfficiencies max 20% of units", "1.7", "Frontage <32 ft: 45\nFrontage >32 ft: 47", "", "Lesser of 15 ft or 12% lot depth\nOr avg of nearest 4 lots", "Greater of 10% lot width or 2 ft", "Lesser of 28% lot depth or 50 ft for detached houses\nLesser of 30% lot depth or 50 ft for all other bldgs", "1\n\nGov't subsidized:\n<600 sq ft: 0.33\n600-1200: 0.7\n>1200: 1"],
+  ["2004", "RM", "5", "", "1650", "400 for DU\n400 for efficiency\n200 for SRO\n\nEfficiencies max 20% of units", "2", "Frontage <32 ft: 45\nFrontage >32 ft: 47", "", "Lesser of 15 ft or 12% lot depth\nOr avg of nearest 4 lots", "Greater of 10% lot width or 2 ft", "Lesser of 28% lot depth or 50 ft for detached houses\nLesser of 30% lot depth or 50 ft for all other bldgs", "1\n\nGov't subsidized:\n<600 sq ft: 0.33\n600-1200: 0.7\n>1200: 1"],
+  ["2004", "RM", "5.5", "", "1650", "400 for DU\n400 for efficiency\n200 for SRO\n\nEfficiencies max 25% of units", "2.5", "Frontage <75 ft: 47\nFrontage >75 ft: 60", "", "Lesser of 15 ft or 12% lot depth\nOr avg of nearest 4 lots", "Greater of 10% lot width or 2 ft", "Lesser of 28% lot depth or 50 ft for detached houses\nLesser of 30% lot depth or 50 ft for all other bldgs", "1\n\nGov't subsidized:\n<600 sq ft: 0.33\n600-1200: 0.7\n>1200: 1"],
+  ["2004", "RM", "6", "", "1650", "300 for DU\n135 for efficiency\n135 for SRO\n\nEfficiencies max 30% of units", "4.4\nMay increase by 0.5% for each 1% decline in units below maximum", "None", "", "Lesser of 15 ft or 12% lot depth\nOr avg of nearest 4 lots", "None if <50% lot coverage\nOtherwise greater of 10% lot width or 10% building height, but not more than 20 ft", "Lesser of 28% lot depth or 50 ft for detached houses\nLesser of 30% lot depth or 50 ft for all other bldgs", "1\n\nGov't subsidized:\n<600 sq ft: 0.33\n600-1200: 0.7\n>1200: 1"],
+  ["2004", "RM", "6.5", "", "1650", "300 for DU\n135 for efficiency\n135 for SRO\n\nEfficiencies max 40% of units", "6.6\nMay increase by 0.5% for each 1% decline in units below maximum", "None", "", "Lesser of 15 ft or 12% lot depth\nOr avg of nearest 4 lots", "None if <50% lot coverage\nOtherwise greater of 10% lot width or 10% building height, but not more than 20 ft", "Lesser of 28% lot depth or 50 ft for detached houses\nLesser of 30% lot depth or 50 ft for all other bldgs", "1\n\nGov't subsidized:\n<600 sq ft: 0.33\n600-1200: 0.7\n>1200: 1"],
+  ["2004", "B/C", "1", "", "", "2500 per DU\n2500 per efficiency\n\nEfficiencies max 10% of units", "1.2", "38", "", "38", "None, unless abutting residential", "30 ft", "1\n\nGov't subsidized:\n<600 sq ft: 0.33\n600-1200: 0.7\n>1200: 1"],
+  ["2004", "B/C", "1.5", "", "", "1350 per DU\n1350 per efficiency\n\nEfficiencies max 15% of units", "1.5", "38", "", "38", "None, unless abutting residential", "30 ft", "1\n\nGov't subsidized:\n<600 sq ft: 0.33\n600-1200: 0.7\n>1200: 1"],
+  ["2004", "B/C", "2", "", "", "1000 per DU\n700 per efficiency\n700 per SRO\n\nEfficiencies max 20% of units", "2.2", "Frontage <25 ft: 47\nFrontage >25 ft: 50", "", "Lot frontage 25 ft or less: 47\nLot frontage 25-49 ft: 50\nLot frontage 50-99 ft: 50\nLot frontage >100 ft: 50", "None, unless abutting residential", "30 ft", "1\n\nGov't subsidized:\n<600 sq ft: 0.33\n600-1200: 0.7\n>1200: 1"],
+  ["2004", "B/C", "3", "", "", "400 per DU\n300 per efficiency\n200 per SRO\n\nEfficiencies max 20% of units", "3", "Frontage 0-25: 50\nFrontage 26-49: 55\nFrontage >50: 65", "", "Lot frontage 25 ft or less: 50\nLot frontage 25-49 ft: 55\nLot frontage 50-99 ft: 65\nLot frontage >100 ft: 65", "None, unless abutting residential", "30 ft", "1\n\nGov't subsidized:\n<600 sq ft: 0.33\n600-1200: 0.7\n>1200: 1"],
+  ["2004", "B/C", "5", "", "", "200 per DU\n135 per efficiency\n100 per SRO\n\nEfficiencies max 30% of units", "5", "Frontage 0-25: 50\nFrontage 26-49: 55\nFrontage 50-99: 70\nFrontage >100: 80", "", "Lot frontage 25 ft or less: 50 \nLot frontage 25-49 ft: 55\nLot frontage 50-99 ft: 70\nLot frontage >100 ft: 80", "None, unless abutting residential", "30 ft", "1\n\nGov't subsidized:\n<600 sq ft: 0.33\n600-1200: 0.7\n>1200: 1"],
+  ["1942", "Family Residence", "1", "None", "", "1 unit", "", "25 ft", "35%\n40% if corner", "15% of avg lot depth on the block with same zoning", "3 ft or 10% lot width, whichever is greater", "20 ft", "None"],
+  ["1942", "Duplex Residence", "1", "None", "", "2 units", "", "25 ft", "35%\n40% if corner", "15% of avg lot depth on the block with same zoning", "3 ft or 10% lot width, whichever is greater", "20 ft", "None"],
+  ["1942", "Group House, Apartment House", "1", "None", "", "None", "", "25 ft", "35%\n40% if corner", "10% of avg lot depth on the block with same zoning", "None", "20 ft", "Group House:\nIf 1-2 units: 0\nIf 3+ units: 1\n\nApartment House: 0.33"],
+  ["1942", "Family Residence", "2", "None", "", "1 unit", "", "45 ft", "40%\n45% if corner", "15% of avg lot depth on the block with same zoning", "3 ft or 10% lot width, whichever is greater", "20 ft", "None"],
+  ["1942", "Duplex Residence", "2", "None", "", "2 units", "", "45 ft", "40%\n45% if corner", "15% of avg lot depth on the block with same zoning", "3 ft or 10% lot width, whichever is greater", "20 ft", "None"],
+  ["1942", "Group House, Apartment House", "2", "None", "", "None", "", "45 ft", "40%\n45% if corner", "10% of avg lot depth on the block with same zoning", "None", "20 ft", "Group House:\nIf 1-2 units: 0\nIf 3+ units: 1\n\nApartment House: 0.33"],
+  ["1942", "Family Residence", "3", "None", "", "1 unit", "", "None", "50%\n60% if corner", "15% of avg lot depth on the block with same zoning", "3 ft or 10% lot width, whichever is greater", "20 ft", "None"],
+  ["1942", "Duplex Residence", "3", "None", "", "2 units", "", "None", "50%\n60% if corner", "15% of avg lot depth on the block with same zoning", "3 ft or 10% lot width, whichever is greater", "20 ft", "None"],
+  ["1942", "Group House, Apartment House", "3", "72x lot area", "", "None", "", "None", "50%\n60% if corner", "10% of avg lot depth on the block with same zoning", "None", "20 ft", "Group House:\nIf 1-2 units: 0\nIf 3+ units: 1\n\nApartment House: 0.33"],
+  ["1942", "Family Residence", "4", "144x lot area", "", "1 unit", "", "None", "50%\n60% if corner", "15% of avg lot depth on the block with same zoning", "3 ft or 10% lot width, whichever is greater", "20 ft", "None"],
+  ["1942", "Duplex Residence", "4", "144x lot area", "", "2 units", "", "None", "50%\n60% if corner", "15% of avg lot depth on the block with same zoning", "3 ft or 10% lot width, whichever is greater", "20 ft", "None"],
+  ["1942", "Group House, Apartment House", "4", "72x lot area", "", "None", "", "None", "50%\n60% if corner", "10% of avg lot depth on the block with same zoning", "None", "20 ft", "Group House:\nIf 1-2 units: 0\nIf 3+ units: 1\n\nApartment House: 0.33"],
+  ["1942", "Business, Commercial", "1", "None", "", "None", "", "25 ft", "None", "None", "None", "None", "Group House:\nIf 1-2 units: 0\nIf 3+ units: 1\n\nApartment House: 0.33"],
+  ["1942", "Business, Commercial", "2", "None", "", "None", "", "45 ft", "None", "None", "None", "None", "Group House:\nIf 1-2 units: 0\nIf 3+ units: 1\n\nApartment House: 0.33"],
+  ["1942", "Business, Commercial", "3", "96x lot area", "", "None", "", "None", "None", "None", "None", "None", "Group House:\nIf 1-2 units: 0\nIf 3+ units: 1\n\nApartment House: 0.33"],
+  ["1942", "Business, Commercial", "4", "144x lot area", "", "None", "", "None", "None", "None", "None", "None", "Group House:\nIf 1-2 units: 0\nIf 3+ units: 1\n\nApartment House: 0.33"],
+  ["1942", "Specialty Shop", "1", "None", "", "None", "", "25 ft", "35%\n40% if corner", "None", "None", "None", "Group House:\nIf 1-2 units: 0\nIf 3+ units: 1\n\nApartment House: 0.33"],
+  ["1942", "Specialty Shop", "2", "None", "", "None", "", "45 ft", "40%\n45% if corner", "None", "None", "None", "Group House:\nIf 1-2 units: 0\nIf 3+ units: 1\n\nApartment House: 0.33"],
+  ["1942", "Specialty Shop", "3", "72x lot area", "", "None", "", "None", "50%\n60% if corner", "None", "None", "None", "Group House:\nIf 1-2 units: 0\nIf 3+ units: 1\n\nApartment House: 0.33"],
+  ["1942", "Specialty Shop", "4", "144x lot area", "", "None", "", "None", "50%\n60% if corner", "None", "None", "None", "Group House:\nIf 1-2 units: 0\nIf 3+ units: 1\n\nApartment House: 0.33"]
+];
+
+const SOURCES = [
+  {
+    "pub_year": "1937",
+    "ord_year": "1924",
+    "url": "https://babel.hathitrust.org/cgi/pt?id=hvd.li33dl&view=1up&seq=1&skin=2021"
+  },
+  {
+    "pub_year": "1944",
+    "ord_year": "1942",
+    "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015008061619&view=1up&seq=9&skin=2021"
+  },
+  {
+    "pub_year": "1958",
+    "ord_year": "1957",
+    "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015070335644&view=1up&seq=2&skin=2021&size=125&q1=7A"
+  },
+  {
+    "pub_year": "",
+    "ord_year": "1971",
+    "url": ""
+  },
+  {
+    "pub_year": "2007",
+    "ord_year": "2004",
+    "url": "https://secondcityzoning.org/resources/Chicago-Zoning-Ordinance.pdf"
+  },
+  {
+    "pub_year": "1923",
+    "ord_year": "Report",
+    "url": "https://babel.hathitrust.org/cgi/pt?id=uiug.30112039464661&view=1up&seq=4&skin=2021&size=150"
+  }
+];
+
+
+// ── Source descriptions ──
+
+const SOURCE_INFO = {
+  '1924': { label: '1924 Zoning Ordinance', desc: "Chicago's first comprehensive zoning ordinance, regulating use and volume districts. Published 1937." },
+  '1942': { label: '1942 Zoning Ordinance', desc: 'Major revision introducing density districts and updated use classifications. Published 1944.' },
+  '1957': { label: '1957 Zoning Ordinance', desc: 'Comprehensive rewrite adopting FAR-based density controls and modernized district structure. Published 1958.' },
+  '1971': { label: '1971 Zoning Ordinance', desc: 'Amendments to the 1957 ordinance. Source document not yet located.' },
+  '2004': { label: '2004 Zoning Ordinance', desc: 'Current zoning code framework with revised residential, business, and commercial districts. Published 2007.' },
+  'Report': { label: '1923 Zoning Report', desc: "Advisory report preceding the 1924 ordinance, documenting the rationale for Chicago's first zoning regulations." }
+};
+
+// ── Render table ──
+
+const tableHead = document.getElementById('tableHead');
+const tableBody = document.getElementById('tableBody');
+
+// Display order: rearranges columns so FAR sits next to Volume
+// Data indices: 0=Year, 1=Use District, 2=Density District, 3=Volume,
+//   4=MLA, 5=MLA/unit, 6=FAR, 7=Height, 8=Lot Coverage,
+//   9=Front Setback, 10=Side Setback, 11=Rear Setback, 12=Parking
+const DISPLAY_ORDER = [1, 2, 3, 6, 4, 5, 7, 8, 9, 10, 11, 12];
+
+// Category labels per display column (one cell per column — no colspan)
+const CATEGORIES = [
+  '', '',
+  'Bulk', 'Bulk',
+  'Density', 'Density',
+  '',
+  'Setbacks', 'Setbacks', 'Setbacks', 'Setbacks',
+  ''
+];
+
+// Build category header row
+const catRow = document.createElement('tr');
+catRow.className = 'cat-row';
+let prevCat = '';
+CATEGORIES.forEach((cat, i) => {
+  const th = document.createElement('th');
+  const nextCat = CATEGORIES[i + 1] || '';
+  // Show label only on the first cell of each group
+  if (cat && cat !== prevCat) th.textContent = cat;
+  // Visual grouping borders
+  if (cat) {
+    th.className = 'cat-group';
+    if (cat !== prevCat) th.classList.add('cat-start');
+    if (cat !== nextCat) th.classList.add('cat-end');
+  }
+  catRow.appendChild(th);
+  prevCat = cat;
+});
+tableHead.appendChild(catRow);
+
+// Build column header row
+const colRow = document.createElement('tr');
+DISPLAY_ORDER.forEach(i => {
+  const th = document.createElement('th');
+  th.textContent = HEADERS[i];
+  colRow.appendChild(th);
+});
+tableHead.appendChild(colRow);
+
+function renderTable(year) {
+  while (tableBody.firstChild) {
+    tableBody.removeChild(tableBody.firstChild);
+  }
+  const filtered = DATA.filter(row => row[0] === year);
+  filtered.forEach(row => {
+    const tr = document.createElement('tr');
+    DISPLAY_ORDER.forEach(i => {
+      const td = document.createElement('td');
+      td.textContent = row[i];
+      tr.appendChild(td);
+    });
+    tableBody.appendChild(tr);
+  });
+}
+
+renderTable('1923');
+
+// ── Era filter ──
+
+const eraButtons = document.querySelectorAll('.era-btn');
+eraButtons.forEach(btn => {
+  btn.addEventListener('click', () => {
+    eraButtons.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    renderTable(btn.dataset.year);
+  });
+});
+
+// ── Tab switching ──
+
+const tabs = document.querySelectorAll('.tab-btn');
+const panels = document.querySelectorAll('.tab-panel');
+
+function switchTab(tabId) {
+  tabs.forEach(t => {
+    t.setAttribute('aria-selected', t.id === tabId);
+  });
+  panels.forEach(p => {
+    p.classList.toggle('active', p.id === 'panel-' + tabId.replace('tab-', ''));
+  });
+}
+
+tabs.forEach(tab => {
+  tab.addEventListener('click', () => switchTab(tab.id));
+  tab.addEventListener('keydown', e => {
+    const tabList = Array.from(tabs);
+    const idx = tabList.indexOf(tab);
+    let target = null;
+    if (e.key === 'ArrowRight') target = tabList[(idx + 1) % tabList.length];
+    if (e.key === 'ArrowLeft') target = tabList[(idx - 1 + tabList.length) % tabList.length];
+    if (target) {
+      e.preventDefault();
+      target.focus();
+      switchTab(target.id);
+    }
+  });
+});
+
+// ── CSV download ──
+
+document.getElementById('downloadCsv').addEventListener('click', () => {
+  // Export in display order (with Year prepended)
+  const csvOrder = [0, ...DISPLAY_ORDER];
+  const csvRows = [HEADERS, ...DATA];
+  const csvContent = csvRows.map(row =>
+    csvOrder.map(i => '"' + String(row[i]).replace(/"/g, '""') + '"').join(',')
+  ).join('\r\n');
+
+  const blob = new Blob(['\uFEFF' + csvContent], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'chicago-zoning-history.csv';
+  a.click();
+  URL.revokeObjectURL(url);
+});
+
+// ── Render sources ──
+
+const sourceList = document.getElementById('sourceList');
+
+SOURCES.forEach(src => {
+  const card = document.createElement('div');
+  card.className = 'source-card';
+
+  const info = SOURCE_INFO[src.ord_year] || { label: src.ord_year + ' Ordinance', desc: '' };
+
+  const year = document.createElement('div');
+  year.className = 'source-year';
+  year.textContent = info.label;
+  card.appendChild(year);
+
+  const desc = document.createElement('p');
+  desc.className = 'source-desc';
+  desc.textContent = info.desc;
+  card.appendChild(desc);
+
+  if (src.url) {
+    const link = document.createElement('a');
+    link.className = 'source-link';
+    link.href = src.url;
+    link.target = '_blank';
+    link.rel = 'noopener';
+    link.textContent = src.url.includes('.pdf') ? 'View PDF \u2192' : 'View on HathiTrust \u2192';
+    card.appendChild(link);
+  } else {
+    const unavail = document.createElement('span');
+    unavail.className = 'source-unavailable';
+    unavail.textContent = 'Source not available online';
+    card.appendChild(unavail);
+  }
+
+  sourceList.appendChild(card);
+});
+</script>
+
+</body>
+</html>

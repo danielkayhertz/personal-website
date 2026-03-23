@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4ecd8;
+  font-family: 'IBM Plex Serif', Georgia, serif;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 6rem;
+}
+
+p {
+  margin: 0 0 1.6em;
+}
+
+p:nth-child(1) { color: #0f2a50; } /* deep navy */
+p:nth-child(2) { color: #6b2d0a; } /* rich brown */
+p:nth-child(3) { color: #1a4a72; } /* medium blue */
+p:nth-child(4) { color: #7a3c10; } /* amber brown */
+p:nth-child(5) { color: #1c3560; } /* slate blue */
+p:nth-child(6) { color: #4a2008; } /* dark warm brown */
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  opacity: 0.7;
+}
