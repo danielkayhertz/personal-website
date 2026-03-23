@@ -14,7 +14,7 @@
 <main>
   <a class="page-home" href="index.html">← Home</a>
   <h1>Chicago Zoning History</h1>
-  <p class="explainer">A comparative dataset of zoning regulations across Chicago’s four major zoning ordinances: 1923, 1942, 1957, and 2004. Each ordinance restructured the city’s use districts, density controls, and development standards. The data covers use and density classifications, lot area, FAR, height limits, setbacks, and parking requirements as defined in each era’s code.</p>
+  <p class="explainer">A comparative dataset of zoning regulations across Chicago’s four major zoning ordinances: 1924, 1942, 1957, and 2004. Each ordinance restructured the city’s use districts, density controls, and development standards. The data covers use and density classifications, lot area, FAR, height limits, setbacks, and parking requirements as defined in each era’s code.</p>
 
   <!-- Tab bar -->
   <div class="tab-bar" role="tablist" aria-label="Page sections">
@@ -26,7 +26,7 @@
   <div class="tab-panel active" id="panel-explore" role="tabpanel" aria-labelledby="tab-explore">
     <div class="era-bar">
       <span class="era-label">Era:</span>
-      <button class="era-btn active" data-year="1923">1923</button>
+      <button class="era-btn active" data-year="1924">1924</button>
       <button class="era-btn" data-year="1942">1942</button>
       <button class="era-btn" data-year="1957">1957</button>
       <button class="era-btn" data-year="2004">2004</button>
@@ -50,16 +50,16 @@
 const HEADERS = ["Year", "Use District", "Density District", "Volume", "MLA", "MLA/unit", "FAR", "Height", "Lot Coverage", "Front Setback", "Side Setback", "Rear Setback", "Parking"];
 
 const DATA = [
-  ["1923", "R or A", "1st Volume District", "10x lot area\n13x if corner\nAdd 0.2 for each 100 feet lot is below 3600 sq ft, max 2x add'l", "", "R: One unit\nA: Unlimited", "", "66 ft\n33 ft at street\n+2 ft for each 1 ft setback", "50%\n65% if corner", "R - 15% of avg block lot depth\nA - 10% of avg block lot depth\nIf block built out, existing building line", "1 ft setback for each 3 ft above 30 ft", "", "None"],
-  ["1923", "R or A", "2nd Volume District", "40x lot area\n50x if corner\nAdd 1% for each 100 ft lot is below 3600 sq ft, max 5% add'l", "", "R: One unit\nA: Unlimited", "", "132 ft\n66 ft at street\n+2 ft for each 1 ft setback\n1/3 bonus if frontage >120 ft, or w/i 150 ft of park, railway, or water", "60%\n75% if corner", "R - 15% of avg block lot depth\nA - 10% of avg block lot depth\nIf block built out, existing building line", "1 ft setback for each 3 ft above 30 ft", "", "None"],
-  ["1923", "R or A", "3rd Volume District", "100x lot area\n120x if corner\n1/8x bonus for tower if <25% of lot area", "", "R: One unit\nA: Unlimited", "", "198 ft\n132 ft at street\n+2 ft for each 1 ft setback\nUnlimited tower if <25% of lot area\n1/3 bonus if frontage >120 ft, or w/i 150 ft of park, railway, or water", "75%\n90% if corner", "R - 15% of avg block lot depth\nA - 10% of avg block lot depth\nIf block built out, existing building line", "None", "", "None"],
-  ["1923", "R or A", "4th Volume District", "100x lot area\n120x if corner\n1/8x bonus for tower if <25% of lot area", "", "R: One unit\nA: Unlimited", "", "198 ft\n132 ft at street\n+2 ft for each 1 ft setback\nUnlimited tower if <25% of lot area\n1/3 bonus if frontage >120 ft, or w/i 150 ft of park, railway, or water", "75%\n90% if corner", "R - 15% of avg block lot depth\nA - 10% of avg block lot depth\nIf block built out, existing building line", "None", "", "None"],
-  ["1923", "R or A", "5th Volume District", "100x lot area\n120x if corner\n1/8x bonus for tower if <25% of lot area", "", "R: One unit\nA: Unlimited", "", "198 ft\n132 ft at street\n+2 ft for each 1 ft setback\nUnlimited tower if <25% of lot area", "75%\n90% if corner", "R - 15% of avg block lot depth\nA - 10% of avg block lot depth\nIf block built out, existing building line", "None", "", "None"],
-  ["1923", "C", "1st Volume District", "36x lot area\n1/8x bonus for tower if <25% of lot area", "", "Unlimited", "", "66 ft\n33 ft at street\n+2 ft for each 1 ft setback\nUnlimited tower if <25% of lot area", "100%", "None", "1 ft setback for each 3 ft above 30 ft", "", "None"],
-  ["1923", "C", "2nd Volume District", "72x lot area\n1/8x bonus for tower if <25% of lot area", "", "Unlimited", "", "132 ft\n66 ft at street\n+2 ft for each 1 ft setback\nUnlimited tower if <25% of lot area\n1/3 bonus if frontage >120 ft, or w/i 150 ft of park, railway, or water", "100%", "None", "None", "", "None"],
-  ["1923", "C", "3rd Volume District", "144x lot area\n1/8x bonus for tower if <25% of lot area", "", "Unlimited", "", "198 ft\n132 ft at street\n+2 ft for each 1 ft setback\nUnlimited tower if <25% of lot area\n1/3 bonus if frontage >120 ft, or w/i 150 ft of park, railway, or water", "100%", "None", "None", "", "None"],
-  ["1923", "C", "4th Volume District", "216x lot area\n1/8x bonus for tower if <25% of lot area", "", "Unlimited", "", "264 ft\n198 ft at street\n+2 ft for each 1 ft setback\nUnlimited tower if <25% of lot area\n1/3 bonus if frontage >120 ft, or w/i 150 ft of park, railway, or water", "100%", "None", "None", "", "None"],
-  ["1923", "C", "5th Volume District", "Unlimited", "", "Unlimited", "", "Unlimited\n264 ft at street\n30 degree angle above\nUnlimited tower if <25% of lot area", "100%", "None", "None", "", "None"],
+  ["1924", "R or A", "1st Volume District", "10x lot area\n13x if corner\nAdd 0.2 for each 100 feet lot is below 3600 sq ft, max 2x add'l", "", "R: One unit\nA: Unlimited", "", "66 ft\n33 ft at street\n+2 ft for each 1 ft setback", "50%\n65% if corner", "R - 15% of avg block lot depth\nA - 10% of avg block lot depth\nIf block built out, existing building line", "1 ft setback for each 3 ft above 30 ft", "", "None"],
+  ["1924", "R or A", "2nd Volume District", "40x lot area\n50x if corner\nAdd 1% for each 100 ft lot is below 3600 sq ft, max 5% add'l", "", "R: One unit\nA: Unlimited", "", "132 ft\n66 ft at street\n+2 ft for each 1 ft setback\n1/3 bonus if frontage >120 ft, or w/i 150 ft of park, railway, or water", "60%\n75% if corner", "R - 15% of avg block lot depth\nA - 10% of avg block lot depth\nIf block built out, existing building line", "1 ft setback for each 3 ft above 30 ft", "", "None"],
+  ["1924", "R or A", "3rd Volume District", "100x lot area\n120x if corner\n1/8x bonus for tower if <25% of lot area", "", "R: One unit\nA: Unlimited", "", "198 ft\n132 ft at street\n+2 ft for each 1 ft setback\nUnlimited tower if <25% of lot area\n1/3 bonus if frontage >120 ft, or w/i 150 ft of park, railway, or water", "75%\n90% if corner", "R - 15% of avg block lot depth\nA - 10% of avg block lot depth\nIf block built out, existing building line", "None", "", "None"],
+  ["1924", "R or A", "4th Volume District", "100x lot area\n120x if corner\n1/8x bonus for tower if <25% of lot area", "", "R: One unit\nA: Unlimited", "", "198 ft\n132 ft at street\n+2 ft for each 1 ft setback\nUnlimited tower if <25% of lot area\n1/3 bonus if frontage >120 ft, or w/i 150 ft of park, railway, or water", "75%\n90% if corner", "R - 15% of avg block lot depth\nA - 10% of avg block lot depth\nIf block built out, existing building line", "None", "", "None"],
+  ["1924", "R or A", "5th Volume District", "100x lot area\n120x if corner\n1/8x bonus for tower if <25% of lot area", "", "R: One unit\nA: Unlimited", "", "198 ft\n132 ft at street\n+2 ft for each 1 ft setback\nUnlimited tower if <25% of lot area", "75%\n90% if corner", "R - 15% of avg block lot depth\nA - 10% of avg block lot depth\nIf block built out, existing building line", "None", "", "None"],
+  ["1924", "C", "1st Volume District", "36x lot area\n1/8x bonus for tower if <25% of lot area", "", "Unlimited", "", "66 ft\n33 ft at street\n+2 ft for each 1 ft setback\nUnlimited tower if <25% of lot area", "100%", "None", "1 ft setback for each 3 ft above 30 ft", "", "None"],
+  ["1924", "C", "2nd Volume District", "72x lot area\n1/8x bonus for tower if <25% of lot area", "", "Unlimited", "", "132 ft\n66 ft at street\n+2 ft for each 1 ft setback\nUnlimited tower if <25% of lot area\n1/3 bonus if frontage >120 ft, or w/i 150 ft of park, railway, or water", "100%", "None", "None", "", "None"],
+  ["1924", "C", "3rd Volume District", "144x lot area\n1/8x bonus for tower if <25% of lot area", "", "Unlimited", "", "198 ft\n132 ft at street\n+2 ft for each 1 ft setback\nUnlimited tower if <25% of lot area\n1/3 bonus if frontage >120 ft, or w/i 150 ft of park, railway, or water", "100%", "None", "None", "", "None"],
+  ["1924", "C", "4th Volume District", "216x lot area\n1/8x bonus for tower if <25% of lot area", "", "Unlimited", "", "264 ft\n198 ft at street\n+2 ft for each 1 ft setback\nUnlimited tower if <25% of lot area\n1/3 bonus if frontage >120 ft, or w/i 150 ft of park, railway, or water", "100%", "None", "None", "", "None"],
+  ["1924", "C", "5th Volume District", "Unlimited", "", "Unlimited", "", "Unlimited\n264 ft at street\n30 degree angle above\nUnlimited tower if <25% of lot area", "100%", "None", "None", "", "None"],
   ["1957", "R", "1", "", "6250", "One unit", "0.5", "", "", "Lesser of 20 ft or 16% lot depth", "One story: Greater of 3 ft or 10% lot width\n>1 story: Greater of 3 ft or 15% lot width", "Greater of 2/3 building height or 30 ft", "1"],
   ["1957", "R", "2", "", "5000", "One unit", "0.5", "", "", "Lesser of 20 ft or 16% lot depth", "One story: Greater of 2.5 ft or 10% lot width\n>1 story: Greater of 3 ft or 15% lot width", "Greater of 2/3 building height or 30 ft", "1"],
   ["1957", "R", "3", "", "2500\n3750 for two-unit bldg", "", "0.7", "", "", "Lesser of 20 ft or 16% lot depth", "<25 ft height: 5 ft, minus 6\" for each foot lot width below 34\n>25 ft height: 1/5 building height", "Greater of 2/3 building height or 30 ft", "1"],
@@ -129,11 +129,6 @@ const SOURCES = [
     "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015070335644&view=1up&seq=2&skin=2021&size=125&q1=7A"
   },
   {
-    "pub_year": "",
-    "ord_year": "1971",
-    "url": ""
-  },
-  {
     "pub_year": "2007",
     "ord_year": "2004",
     "url": "https://secondcityzoning.org/resources/Chicago-Zoning-Ordinance.pdf"
@@ -152,7 +147,6 @@ const SOURCE_INFO = {
   '1924': { label: '1924 Zoning Ordinance', desc: "Chicago's first comprehensive zoning ordinance, regulating use and volume districts. Published 1937." },
   '1942': { label: '1942 Zoning Ordinance', desc: 'Major revision introducing density districts and updated use classifications. Published 1944.' },
   '1957': { label: '1957 Zoning Ordinance', desc: 'Comprehensive rewrite adopting FAR-based density controls and modernized district structure. Published 1958.' },
-  '1971': { label: '1971 Zoning Ordinance', desc: 'Amendments to the 1957 ordinance. Source document not yet located.' },
   '2004': { label: '2004 Zoning Ordinance', desc: 'Current zoning code framework with revised residential, business, and commercial districts. Published 2007.' },
   'Report': { label: '1923 Zoning Report', desc: "Advisory report preceding the 1924 ordinance, documenting the rationale for Chicago's first zoning regulations." }
 };
@@ -223,7 +217,7 @@ function renderTable(year) {
   });
 }
 
-renderTable('1923');
+renderTable('1924');
 
 // ── Era filter ──
 
