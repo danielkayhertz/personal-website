@@ -1,0 +1,2061 @@
+[
+  {
+    "id": "tot_pop",
+    "label": "Total population",
+    "description": "Total resident population",
+    "category": "Demographics",
+    "unit": "people",
+    "format": "count",
+    "keywords": [],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": true
+  },
+  {
+    "id": "pop_change_2010_2020",
+    "label": "Population change, 2010–2020",
+    "description": "Percent change in population between the 2010 and 2020 Census counts",
+    "category": "Demographics",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "growth",
+      "population growth",
+      "decline"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025
+    ],
+    "periods_available": [
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "med_age",
+    "label": "Median age",
+    "description": "Median age of residents, in years",
+    "category": "Demographics",
+    "unit": "years",
+    "format": "decimal",
+    "keywords": [],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": true
+  },
+  {
+    "id": "pct_white",
+    "label": "% White (non-Hispanic)",
+    "description": "Share of residents identifying as non-Hispanic White",
+    "category": "Demographics",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "white",
+      "caucasian"
+    ],
+    "source": "CMAP CDS + Historical CCA Data",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "dec1980",
+      "dec1990",
+      "dec2000",
+      "dec2010",
+      "acs2008_2012",
+      "acs2009_2013",
+      "acs2010_2014",
+      "acs2011_2015",
+      "acs2012_2016",
+      "acs2013_2017",
+      "acs2014_2018",
+      "acs2015_2019",
+      "acs2016_2020",
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": true,
+    "related": [
+      "pct_white_pre1980"
+    ]
+  },
+  {
+    "id": "pct_hispanic",
+    "label": "% Hispanic or Latino",
+    "description": "Share of residents identifying as Hispanic or Latino (any race)",
+    "category": "Demographics",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "latino",
+      "latina",
+      "latinx",
+      "hispanic"
+    ],
+    "source": "CMAP CDS + Historical CCA Data",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "dec1980",
+      "dec1990",
+      "dec2000",
+      "dec2010",
+      "acs2008_2012",
+      "acs2009_2013",
+      "acs2010_2014",
+      "acs2011_2015",
+      "acs2012_2016",
+      "acs2013_2017",
+      "acs2014_2018",
+      "acs2015_2019",
+      "acs2016_2020",
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": true,
+    "related": [
+      "pct_hispanic_pre1980"
+    ]
+  },
+  {
+    "id": "pct_black",
+    "label": "% Black (non-Hispanic)",
+    "description": "Share of residents identifying as non-Hispanic Black",
+    "category": "Demographics",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "black",
+      "african american",
+      "african-american"
+    ],
+    "source": "CMAP CDS + Historical CCA Data",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "dec1980",
+      "dec1990",
+      "dec2000",
+      "dec2010",
+      "acs2008_2012",
+      "acs2009_2013",
+      "acs2010_2014",
+      "acs2011_2015",
+      "acs2012_2016",
+      "acs2013_2017",
+      "acs2014_2018",
+      "acs2015_2019",
+      "acs2016_2020",
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": true,
+    "related": [
+      "pct_black_pre1980"
+    ]
+  },
+  {
+    "id": "pct_asian",
+    "label": "% Asian (non-Hispanic)",
+    "description": "Share of residents identifying as non-Hispanic Asian",
+    "category": "Demographics",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "asian"
+    ],
+    "source": "CMAP CDS + Historical CCA Data",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "dec1990",
+      "dec2000",
+      "dec2010",
+      "acs2008_2012",
+      "acs2009_2013",
+      "acs2010_2014",
+      "acs2011_2015",
+      "acs2012_2016",
+      "acs2013_2017",
+      "acs2014_2018",
+      "acs2015_2019",
+      "acs2016_2020",
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": true,
+    "related": [
+      "pct_asian_pre1980"
+    ]
+  },
+  {
+    "id": "pct_foreign_born",
+    "label": "% Foreign-born",
+    "description": "Share of residents born outside the United States",
+    "category": "Demographics",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "immigrant",
+      "immigration",
+      "foreign"
+    ],
+    "source": "CMAP CDS + Historical CCA Data",
+    "years_available": [
+      2025,
+      2020
+    ],
+    "periods_available": [
+      "dec1930",
+      "dec1940",
+      "dec1950",
+      "dec1960",
+      "dec1970",
+      "dec1980",
+      "dec1990",
+      "dec2000",
+      "acs2008_2012",
+      "acs2009_2013",
+      "acs2010_2014",
+      "acs2011_2015",
+      "acs2012_2016",
+      "acs2013_2017",
+      "acs2014_2018",
+      "acs2015_2019",
+      "acs2016_2020",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false,
+    "related": [
+      "pct_naturalized",
+      "pct_not_citizen"
+    ]
+  },
+  {
+    "id": "pct_white_pre1980",
+    "label": "% White (pre-1980)",
+    "description": "Share identifying as White, 1930–1970 Census taxonomy",
+    "category": "Demographics",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [],
+    "source": "CMAP Historical CCA Data (Decennial Census / ACS)",
+    "years_available": [],
+    "periods_available": [
+      "dec1930",
+      "dec1940",
+      "dec1950",
+      "dec1960",
+      "dec1970"
+    ],
+    "primary": false,
+    "geography_scope": [
+      "cca"
+    ],
+    "related": [
+      "pct_white"
+    ]
+  },
+  {
+    "id": "pct_black_pre1980",
+    "label": "% Black (pre-1980)",
+    "description": "Share identifying as Black, 1930–1970 Census taxonomy",
+    "category": "Demographics",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [],
+    "source": "CMAP Historical CCA Data (Decennial Census / ACS)",
+    "years_available": [],
+    "periods_available": [
+      "dec1930",
+      "dec1940",
+      "dec1950",
+      "dec1960",
+      "dec1970"
+    ],
+    "primary": false,
+    "geography_scope": [
+      "cca"
+    ],
+    "related": [
+      "pct_black"
+    ]
+  },
+  {
+    "id": "pct_hispanic_pre1980",
+    "label": "% Spanish language (pre-1980)",
+    "description": "Share of persons of Spanish language/heritage, 1930–1970 Census taxonomy",
+    "category": "Demographics",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [],
+    "source": "CMAP Historical CCA Data (Decennial Census / ACS)",
+    "years_available": [],
+    "periods_available": [
+      "dec1970"
+    ],
+    "primary": false,
+    "geography_scope": [
+      "cca"
+    ],
+    "related": [
+      "pct_hispanic"
+    ]
+  },
+  {
+    "id": "pct_asian_pre1980",
+    "label": "% Asian/PI (pre-1980)",
+    "description": "Share identifying as Asian or Pacific Islander, 1930–1970 Census taxonomy",
+    "category": "Demographics",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [],
+    "source": "CMAP Historical CCA Data (Decennial Census / ACS)",
+    "years_available": [],
+    "periods_available": [
+      "dec1970"
+    ],
+    "primary": false,
+    "geography_scope": [
+      "cca"
+    ],
+    "related": [
+      "pct_asian"
+    ]
+  },
+  {
+    "id": "pct_other_pre1980",
+    "label": "% Other race (pre-1980)",
+    "description": "Share in 'other' racial category, 1930–1970 Census taxonomy",
+    "category": "Demographics",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [],
+    "source": "CMAP Historical CCA Data (Decennial Census / ACS)",
+    "years_available": [],
+    "periods_available": [
+      "dec1930",
+      "dec1940",
+      "dec1950",
+      "dec1960",
+      "dec1970"
+    ],
+    "primary": false,
+    "geography_scope": [
+      "cca"
+    ]
+  },
+  {
+    "id": "pct_other_race_post1980",
+    "label": "% Other race (NH)",
+    "description": "Share identifying as non-Hispanic 'other' race, 1980+ taxonomy",
+    "category": "Demographics",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [],
+    "source": "CMAP Historical CCA Data (Decennial Census / ACS)",
+    "years_available": [],
+    "periods_available": [
+      "dec1980",
+      "dec1990",
+      "dec2000",
+      "dec2010",
+      "acs2008_2012",
+      "acs2009_2013",
+      "acs2010_2014",
+      "acs2011_2015",
+      "acs2012_2016",
+      "acs2013_2017",
+      "acs2014_2018",
+      "acs2015_2019",
+      "acs2016_2020"
+    ],
+    "primary": false,
+    "geography_scope": [
+      "cca"
+    ]
+  },
+  {
+    "id": "pct_naturalized",
+    "label": "% Naturalized citizen",
+    "description": "Share of residents who are naturalized U.S. citizens",
+    "category": "Demographics",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "naturalized",
+      "citizenship",
+      "citizen"
+    ],
+    "source": "CMAP Historical CCA Data (Decennial Census / ACS)",
+    "years_available": [],
+    "periods_available": [
+      "dec1990",
+      "dec2000",
+      "acs2008_2012",
+      "acs2009_2013",
+      "acs2010_2014",
+      "acs2011_2015",
+      "acs2012_2016",
+      "acs2013_2017",
+      "acs2014_2018",
+      "acs2015_2019",
+      "acs2016_2020"
+    ],
+    "primary": false,
+    "geography_scope": [
+      "cca"
+    ],
+    "related": [
+      "pct_not_citizen",
+      "pct_foreign_born"
+    ]
+  },
+  {
+    "id": "pct_not_citizen",
+    "label": "% Non-citizen",
+    "description": "Share of residents who are not U.S. citizens",
+    "category": "Demographics",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "non-citizen",
+      "undocumented",
+      "citizenship"
+    ],
+    "source": "CMAP Historical CCA Data (Decennial Census / ACS)",
+    "years_available": [],
+    "periods_available": [
+      "dec1990",
+      "dec2000",
+      "acs2008_2012",
+      "acs2009_2013",
+      "acs2010_2014",
+      "acs2011_2015",
+      "acs2012_2016",
+      "acs2013_2017",
+      "acs2014_2018",
+      "acs2015_2019",
+      "acs2016_2020"
+    ],
+    "primary": false,
+    "geography_scope": [
+      "cca"
+    ],
+    "related": [
+      "pct_naturalized",
+      "pct_foreign_born"
+    ]
+  },
+  {
+    "id": "pct_1p_hh",
+    "label": "% 1-person households",
+    "description": "Share of households with one person",
+    "category": "Household Composition",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "single person",
+      "one person",
+      "solo",
+      "living alone"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020
+    ],
+    "periods_available": [
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_2p_hh",
+    "label": "% 2-person households",
+    "description": "Share of households with two people",
+    "category": "Household Composition",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020
+    ],
+    "periods_available": [
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_3p_hh",
+    "label": "% 3-person households",
+    "description": "Share of households with three people",
+    "category": "Household Composition",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020
+    ],
+    "periods_available": [
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_4mp_hh",
+    "label": "% 4+ person households",
+    "description": "Share of households with four or more people",
+    "category": "Household Composition",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020
+    ],
+    "periods_available": [
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_fam_hh",
+    "label": "% Family households",
+    "description": "Share of households classified as family households",
+    "category": "Household Composition",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "family",
+      "families"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020
+    ],
+    "periods_available": [
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_nonfam_hh",
+    "label": "% Non-family households",
+    "description": "Share of households classified as non-family households",
+    "category": "Household Composition",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "non-family",
+      "roommates",
+      "unrelated"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020
+    ],
+    "periods_available": [
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_sp_wchild",
+    "label": "% Single-parent households",
+    "description": "Share of households that are single-parent families with children",
+    "category": "Household Composition",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "single parent",
+      "single mom",
+      "single dad",
+      "lone parent"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020
+    ],
+    "periods_available": [
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": true
+  },
+  {
+    "id": "pct_english_only",
+    "label": "% English only",
+    "description": "Share of residents who speak only English at home",
+    "category": "Language",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020
+    ],
+    "periods_available": [
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_spanish",
+    "label": "% Spanish speakers",
+    "description": "Share of residents who speak Spanish at home",
+    "category": "Language",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "spanish",
+      "latino",
+      "hispanic language"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020
+    ],
+    "periods_available": [
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_chinese",
+    "label": "% Chinese speakers",
+    "description": "Share of residents who speak Chinese at home",
+    "category": "Language",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020
+    ],
+    "periods_available": [
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_arabic",
+    "label": "% Arabic speakers",
+    "description": "Share of residents who speak Arabic at home",
+    "category": "Language",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020
+    ],
+    "periods_available": [
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_korean",
+    "label": "% Korean speakers",
+    "description": "Share of residents who speak Korean at home",
+    "category": "Language",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020
+    ],
+    "periods_available": [
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_slavic",
+    "label": "% Slavic language speakers",
+    "description": "Share of residents who speak a Slavic language at home",
+    "category": "Language",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020
+    ],
+    "periods_available": [
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_tagalog",
+    "label": "% Tagalog speakers",
+    "description": "Share of residents who speak Tagalog at home",
+    "category": "Language",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020
+    ],
+    "periods_available": [
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_not_english",
+    "label": "% Non-English speakers",
+    "description": "Share of residents who speak a language other than English at home",
+    "category": "Language",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "non-english",
+      "foreign language",
+      "multilingual"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020
+    ],
+    "periods_available": [
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_ling_iso",
+    "label": "% Linguistically isolated",
+    "description": "Share of residents age 5+ living in a household where no adult speaks English very well",
+    "category": "Language",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "linguistic isolation",
+      "language barrier",
+      "limited english"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020
+    ],
+    "periods_available": [
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": true
+  },
+  {
+    "id": "hu_tot",
+    "label": "Total housing units",
+    "description": "Total housing units, occupied + vacant",
+    "category": "Housing",
+    "unit": "units",
+    "format": "count",
+    "keywords": [
+      "housing",
+      "housing stock",
+      "homes"
+    ],
+    "source": "CMAP CDS + Historical CCA Data",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "dec1930",
+      "dec1940",
+      "dec1950",
+      "dec1960",
+      "dec1970",
+      "dec1980",
+      "dec1990",
+      "dec2000",
+      "acs2008_2012",
+      "acs2009_2013",
+      "acs2010_2014",
+      "acs2011_2015",
+      "acs2012_2016",
+      "acs2013_2017",
+      "acs2014_2018",
+      "acs2015_2019",
+      "acs2016_2020",
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_owner_occupied",
+    "label": "% Owner-occupied",
+    "description": "Share of occupied housing units that are owner-occupied",
+    "category": "Housing",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "homeowner",
+      "homeownership",
+      "ownership"
+    ],
+    "source": "CMAP CDS + Historical CCA Data",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "dec1930",
+      "dec1940",
+      "dec1950",
+      "dec1960",
+      "dec1970",
+      "dec1980",
+      "dec1990",
+      "dec2000",
+      "acs2008_2012",
+      "acs2009_2013",
+      "acs2010_2014",
+      "acs2011_2015",
+      "acs2012_2016",
+      "acs2013_2017",
+      "acs2014_2018",
+      "acs2015_2019",
+      "acs2016_2020",
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": true
+  },
+  {
+    "id": "vacancy_rate",
+    "label": "Vacancy rate",
+    "description": "Share of housing units that are vacant",
+    "category": "Housing",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "vacant",
+      "empty homes"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": true
+  },
+  {
+    "id": "med_home_value",
+    "label": "Median home value",
+    "description": "Median value of owner-occupied homes",
+    "category": "Housing",
+    "unit": "USD",
+    "format": "currency",
+    "keywords": [
+      "home value",
+      "house price",
+      "home price"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": true
+  },
+  {
+    "id": "med_rent",
+    "label": "Median gross rent",
+    "description": "Median monthly gross rent (rent + utilities)",
+    "category": "Housing",
+    "unit": "USD/mo",
+    "format": "currency",
+    "keywords": [
+      "rent",
+      "renters",
+      "rental"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025
+    ],
+    "periods_available": [
+      "cds2025"
+    ],
+    "primary": true
+  },
+  {
+    "id": "pct_single_family_detached",
+    "label": "% Single-family detached",
+    "description": "Share of housing units that are single-family detached",
+    "category": "Housing",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "sfh",
+      "single family",
+      "houses"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_hu_sng_att",
+    "label": "% Single-family attached",
+    "description": "Share of housing units that are single-family attached",
+    "category": "Housing",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "townhouse",
+      "rowhouse",
+      "attached"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_hu_2un",
+    "label": "% 2-unit buildings",
+    "description": "Share of housing units in 2-unit structures",
+    "category": "Housing",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "two-flat",
+      "two flat",
+      "duplex"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_hu_3_4un",
+    "label": "% 3–4 unit buildings",
+    "description": "Share of housing units in 3- or 4-unit structures",
+    "category": "Housing",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "three-flat",
+      "triplex",
+      "three flat"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_hu_5_9un",
+    "label": "% 5–9 unit buildings",
+    "description": "Share of housing units in 5- to 9-unit structures",
+    "category": "Housing",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025
+    ],
+    "periods_available": [
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_hu_10_19un",
+    "label": "% 10–19 unit buildings",
+    "description": "Share of housing units in 10- to 19-unit structures",
+    "category": "Housing",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025
+    ],
+    "periods_available": [
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_hu_gt19un",
+    "label": "% 20+ unit buildings",
+    "description": "Share of housing units in structures with 20 or more units",
+    "category": "Housing",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "high rise",
+      "highrise",
+      "apartment tower",
+      "large apartment"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025
+    ],
+    "periods_available": [
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_hu_mobile",
+    "label": "% Mobile / manufactured homes",
+    "description": "Share of housing units that are mobile or manufactured homes",
+    "category": "Housing",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "mobile home",
+      "manufactured home",
+      "trailer"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025
+    ],
+    "periods_available": [
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_ha_bef1940",
+    "label": "% Built before 1940",
+    "description": "Share of housing units built before 1940",
+    "category": "Housing",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "old housing",
+      "pre-war",
+      "historic housing"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_ha_40_70",
+    "label": "% Built 1940–1969",
+    "description": "Share of housing units built between 1940 and 1969",
+    "category": "Housing",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_ha_70_90",
+    "label": "% Built 1970–1989",
+    "description": "Share of housing units built between 1970 and 1989",
+    "category": "Housing",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025
+    ],
+    "periods_available": [
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_ha_90_10",
+    "label": "% Built 1990–2009",
+    "description": "Share of housing units built between 1990 and 2009",
+    "category": "Housing",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025
+    ],
+    "periods_available": [
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_ha_aft2010",
+    "label": "% Built 2010 or later",
+    "description": "Share of housing units built in 2010 or later",
+    "category": "Housing",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025
+    ],
+    "periods_available": [
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "med_year_built",
+    "label": "Median year built",
+    "description": "Median year in which housing units were built",
+    "category": "Housing",
+    "unit": "year",
+    "format": "decimal",
+    "keywords": [
+      "housing age",
+      "year built",
+      "old homes",
+      "new homes"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "med_household_income",
+    "label": "Median household income",
+    "description": "Median household income",
+    "category": "Income",
+    "unit": "USD",
+    "format": "currency",
+    "keywords": [
+      "mhi",
+      "income",
+      "earnings"
+    ],
+    "source": "CMAP CDS + Historical CCA Data",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "dec1970",
+      "dec1980",
+      "dec1990",
+      "dec2000",
+      "acs2008_2012",
+      "acs2009_2013",
+      "acs2010_2014",
+      "acs2011_2015",
+      "acs2012_2016",
+      "acs2013_2017",
+      "acs2014_2018",
+      "acs2015_2019",
+      "acs2016_2020",
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": true
+  },
+  {
+    "id": "inc_per_capita",
+    "label": "Per capita income",
+    "description": "Per capita income",
+    "category": "Income",
+    "unit": "USD",
+    "format": "currency",
+    "keywords": [
+      "income",
+      "earnings",
+      "wages"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025
+    ],
+    "periods_available": [
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_low_income",
+    "label": "% Households < $25K",
+    "description": "Share of households with income below $25,000. This is an income proxy, not the federal poverty rate.",
+    "category": "Income",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "poverty",
+      "poor",
+      "low income",
+      "fpl"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": true,
+    "related": [
+      "pct_poverty"
+    ]
+  },
+  {
+    "id": "pct_poverty",
+    "label": "% Below poverty line",
+    "description": "Share of residents with income below the federal poverty line",
+    "category": "Income",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "poverty",
+      "poor",
+      "below poverty",
+      "poverty line",
+      "fpl"
+    ],
+    "source": "CMAP Historical CCA Data (Decennial Census / ACS)",
+    "years_available": [],
+    "periods_available": [
+      "dec1970",
+      "dec1980",
+      "dec1990",
+      "dec2000",
+      "acs2008_2012",
+      "acs2009_2013",
+      "acs2010_2014",
+      "acs2011_2015",
+      "acs2012_2016",
+      "acs2013_2017",
+      "acs2014_2018",
+      "acs2015_2019",
+      "acs2016_2020"
+    ],
+    "primary": false,
+    "geography_scope": [
+      "cca"
+    ],
+    "related": [
+      "pct_low_income"
+    ]
+  },
+  {
+    "id": "pct_inc_25_50k",
+    "label": "% Households $25K–$50K",
+    "description": "Share of households with income between $25,000 and $49,999",
+    "category": "Income",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "working class",
+      "low income"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_inc_50_75k",
+    "label": "% Households $50K–$75K",
+    "description": "Share of households with income between $50,000 and $74,999",
+    "category": "Income",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_inc_75_100k",
+    "label": "% Households $75K–$100K",
+    "description": "Share of households with income between $75,000 and $99,999",
+    "category": "Income",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_inc_100_150k",
+    "label": "% Households $100K–$150K",
+    "description": "Share of households with income between $100,000 and $149,999",
+    "category": "Income",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_inc_gt150k",
+    "label": "% Households >$150K",
+    "description": "Share of households with income of $150,000 or more",
+    "category": "Income",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "wealthy",
+      "high income",
+      "affluent",
+      "rich"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "labor_force_pct",
+    "label": "Labor force participation",
+    "description": "Share of population age 16+ in the civilian labor force",
+    "category": "Employment",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "employment",
+      "workforce"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": true
+  },
+  {
+    "id": "unemployment_rate",
+    "label": "Unemployment rate",
+    "description": "Share of the labor force that is unemployed",
+    "category": "Employment",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "jobless",
+      "joblessness",
+      "out of work"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": true
+  },
+  {
+    "id": "work_from_home_pct",
+    "label": "% Work from home",
+    "description": "Share of workers who work from home (2025 only; denominator TOT_WRKR16OV not available in earlier editions)",
+    "category": "Employment",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025
+    ],
+    "periods_available": [
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_bachelors_or_higher",
+    "label": "% Bachelor's or higher",
+    "description": "Share of adults 25+ with a bachelor's degree or higher. Note: 2015 values include bachelor's degrees only (graduate/professional not available in 2015 source data).",
+    "category": "Education",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "college",
+      "degree",
+      "educated",
+      "education"
+    ],
+    "source": "CMAP CDS + Historical CCA Data",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "dec1940",
+      "dec1950",
+      "dec1960",
+      "dec1970",
+      "dec1980",
+      "dec1990",
+      "dec2000",
+      "acs2008_2012",
+      "acs2009_2013",
+      "acs2010_2014",
+      "acs2011_2015",
+      "acs2012_2016",
+      "acs2013_2017",
+      "acs2014_2018",
+      "acs2015_2019",
+      "acs2016_2020",
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": true,
+    "related": [
+      "pct_some_college",
+      "pct_no_high_school"
+    ]
+  },
+  {
+    "id": "pct_some_college",
+    "label": "% Some college",
+    "description": "Share of adults 25+ with some college but no bachelor's degree",
+    "category": "Education",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "some college",
+      "associate",
+      "vocational"
+    ],
+    "source": "CMAP Historical CCA Data (Decennial Census / ACS)",
+    "years_available": [],
+    "periods_available": [
+      "dec1940",
+      "dec1950",
+      "dec1960",
+      "dec1970",
+      "dec1980",
+      "dec1990",
+      "dec2000",
+      "acs2008_2012",
+      "acs2009_2013",
+      "acs2010_2014",
+      "acs2011_2015",
+      "acs2012_2016",
+      "acs2013_2017",
+      "acs2014_2018",
+      "acs2015_2019",
+      "acs2016_2020"
+    ],
+    "primary": false,
+    "geography_scope": [
+      "cca"
+    ],
+    "related": [
+      "pct_bachelors_or_higher",
+      "pct_no_high_school"
+    ]
+  },
+  {
+    "id": "pct_no_high_school",
+    "label": "% No high school diploma",
+    "description": "Share of adults 25+ without a high school diploma",
+    "category": "Education",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "dropout",
+      "no diploma",
+      "less than high school"
+    ],
+    "source": "CMAP CDS + Historical CCA Data",
+    "years_available": [
+      2025,
+      2020
+    ],
+    "periods_available": [
+      "dec1940",
+      "dec1950",
+      "dec1960",
+      "dec1970",
+      "dec1980",
+      "dec1990",
+      "dec2000",
+      "acs2008_2012",
+      "acs2009_2013",
+      "acs2010_2014",
+      "acs2011_2015",
+      "acs2012_2016",
+      "acs2013_2017",
+      "acs2014_2018",
+      "acs2015_2019",
+      "acs2016_2020",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": true,
+    "related": [
+      "pct_some_college",
+      "pct_bachelors_or_higher"
+    ]
+  },
+  {
+    "id": "pct_drive_alone",
+    "label": "% Drive alone to work",
+    "description": "Share of commuters who drive alone",
+    "category": "Transportation",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "car",
+      "driving",
+      "commute"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": true
+  },
+  {
+    "id": "pct_carpool",
+    "label": "% Carpool to work",
+    "description": "Share of commuters who carpool",
+    "category": "Transportation",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "carpool",
+      "rideshare",
+      "vanpool"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_transit",
+    "label": "% Take public transit",
+    "description": "Share of commuters who use public transit",
+    "category": "Transportation",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "bus",
+      "train",
+      "metra",
+      "cta",
+      "transit",
+      "subway"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": true
+  },
+  {
+    "id": "pct_walk_bike",
+    "label": "% Walk or bike to work",
+    "description": "Share of commuters who walk or bike",
+    "category": "Transportation",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "walking",
+      "biking",
+      "cycling",
+      "active transportation"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_comm_other",
+    "label": "% Other commute mode",
+    "description": "Share of commuters using other modes (taxi, motorcycle, etc.)",
+    "category": "Transportation",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "mean_commute_minutes",
+    "label": "Mean commute time",
+    "description": "Mean travel time to work, in minutes",
+    "category": "Transportation",
+    "unit": "min",
+    "format": "minutes",
+    "keywords": [
+      "commute",
+      "travel time",
+      "drive time"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020
+    ],
+    "periods_available": [
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_zero_vehicle",
+    "label": "% Zero-vehicle households",
+    "description": "Share of households with no vehicle",
+    "category": "Transportation",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "no car",
+      "carless",
+      "car-free",
+      "carfree",
+      "no vehicle"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020
+    ],
+    "periods_available": [
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": true
+  },
+  {
+    "id": "avg_vmt",
+    "label": "Avg. vehicle miles traveled",
+    "description": "Average vehicle miles traveled per person per day",
+    "category": "Transportation",
+    "unit": "mi/day",
+    "format": "decimal",
+    "keywords": [
+      "vehicle miles",
+      "driving miles",
+      "car miles",
+      "vmt"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pop_density",
+    "label": "Population density",
+    "description": "Persons per acre of land",
+    "category": "Land use",
+    "unit": "people/acre",
+    "format": "density",
+    "keywords": [
+      "density",
+      "dense",
+      "sprawl"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": true
+  },
+  {
+    "id": "jobs_to_housing_ratio",
+    "label": "Jobs-to-housing ratio",
+    "description": "Jobs in the geography divided by occupied housing units",
+    "category": "Land use",
+    "unit": "ratio",
+    "format": "ratio",
+    "keywords": [
+      "jobs",
+      "employment center",
+      "bedroom community"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": true
+  },
+  {
+    "id": "pct_open_space",
+    "label": "% Open space",
+    "description": "Share of land area classified as open space",
+    "category": "Land use",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "parks",
+      "green space",
+      "open space"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025,
+      2020,
+      2015
+    ],
+    "periods_available": [
+      "cds2015",
+      "cds2020",
+      "cds2025"
+    ],
+    "primary": false
+  },
+  {
+    "id": "pct_broadband",
+    "label": "% Broadband internet",
+    "description": "Share of households with a broadband internet subscription",
+    "category": "Connectivity",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "internet",
+      "digital divide",
+      "wifi"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025
+    ],
+    "periods_available": [
+      "cds2025"
+    ],
+    "primary": true
+  },
+  {
+    "id": "pct_uninsured",
+    "label": "% Uninsured",
+    "description": "Share of residents without health insurance",
+    "category": "Connectivity",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "health insurance",
+      "no insurance",
+      "uninsured"
+    ],
+    "source": "CMAP CDS (ACS 5-year estimates)",
+    "years_available": [
+      2025
+    ],
+    "periods_available": [
+      "cds2025"
+    ],
+    "primary": true,
+    "related": [
+      "pct_insured"
+    ]
+  },
+  {
+    "id": "pct_insured",
+    "label": "% With health insurance",
+    "description": "Share of residents with any health insurance coverage",
+    "category": "Connectivity",
+    "unit": "%",
+    "format": "percent",
+    "keywords": [
+      "health insurance",
+      "insured",
+      "coverage"
+    ],
+    "source": "CMAP Historical CCA Data (Decennial Census / ACS)",
+    "years_available": [],
+    "periods_available": [
+      "acs2008_2012",
+      "acs2009_2013",
+      "acs2010_2014",
+      "acs2011_2015",
+      "acs2012_2016",
+      "acs2013_2017",
+      "acs2014_2018",
+      "acs2015_2019",
+      "acs2016_2020"
+    ],
+    "primary": false,
+    "geography_scope": [
+      "cca"
+    ],
+    "related": [
+      "pct_uninsured"
+    ]
+  }
+]
