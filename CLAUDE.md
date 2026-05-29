@@ -1,7 +1,7 @@
 # Personal Website
 
 ## Project overview
-A minimal personal website for a Chicago housing policy professional. Four pages: homepage, housing policy guide, art gallery, zoning data.
+A minimal personal website for a Chicago housing policy professional. Five pages: homepage, housing policy guide, art gallery, zoning data, and the Chicagoland Explorer interactive map tool.
 
 ## File structure
 ```
@@ -16,6 +16,7 @@ Personal Website/
 ├── zoning.html         # Zoning data explorer
 ├── zoning.css          # Zoning page styles
 ├── zoning-data.csv     # Downloadable zoning dataset
+├── chicagoland-explorer/   # Compiled snapshot of the Chicagoland Explorer app (see below)
 ├── CLAUDE.md
 ├── Housing in Chicago.docx   # Source document for housing.html
 ├── Chicago Zoning History.zip
@@ -67,6 +68,27 @@ Personal Website/
 - WAI-ARIA tab pattern with keyboard navigation
 - JS data array in `zoning.html` defines all 62 rows — edit this to update data
 - `zoning-data.csv` is a pre-built downloadable copy of the same data
+
+### Chicagoland Explorer (`chicagoland-explorer/`)
+
+This is a **compiled snapshot** of the Chicagoland Explorer React app, not source code. The source lives at `C:\Users\bpi\Documents\Claude Code\chicagoland-explorer\`. It is served at `danielkayhertz.com/chicagoland-explorer/`.
+
+**Do not edit files in this directory directly.** To update the explorer after changing its source:
+
+```powershell
+# Run from the chicagoland-explorer source directory
+$env:PATH = "C:\Users\bpi\tools\node-v22.14.0-win-x64;$env:PATH"
+npx vite build --base /chicagoland-explorer/
+
+$dst = "C:\Users\bpi\Documents\Claude Code\Personal Website\chicagoland-explorer"
+Remove-Item $dst -Recurse -Force
+Copy-Item dist $dst -Recurse
+
+# Then commit and push this repo (personal-website)
+git add chicagoland-explorer/
+git commit -m "Update Chicagoland Explorer snapshot"
+git push
+```
 
 ## Aesthetic reference
 1980s Chicago postmodern — Helmut Jahn's Thompson Center geometry, Roger Brown's flat graphic sensibility. Bare-bones HTML + CSS; avoid over-engineering.
