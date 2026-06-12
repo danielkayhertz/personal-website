@@ -17,6 +17,7 @@ Personal Website/
 ├── zoning.css          # Zoning page styles
 ├── zoning-data.csv     # Downloadable zoning dataset
 ├── chicagoland-explorer/   # Compiled snapshot of the Chicagoland Explorer app (see below)
+├── developergame/          # Compiled snapshot of the Housing Developer Game (see below)
 ├── CLAUDE.md
 ├── Housing in Chicago.docx   # Source document for housing.html
 ├── Chicago Zoning History.zip
@@ -89,6 +90,32 @@ git add chicagoland-explorer/
 git commit -m "Update Chicagoland Explorer snapshot"
 git push
 ```
+
+### Housing Developer Game (`developergame/`)
+
+This is a **compiled snapshot** of the Chicago Affordable Housing Developer Game (React 19 + Vite + TS + Zustand), not source code. The source lives at `C:\Users\bpi\Documents\Claude Code\Housing Developer Game\`. It is served at `danielkayhertz.com/developergame/`.
+
+Moved here from `housing-developer-game.dhertz.workers.dev` (June 2026) because the shared `*.workers.dev` domain was triggering a Cloudflare "Suspected Phishing" interstitial. Serving from the real domain avoids it.
+
+**Do not edit files in this directory directly.** To update the game after changing its source, run from the **game source** directory:
+
+```powershell
+# Run from C:\Users\bpi\Documents\Claude Code\Housing Developer Game
+$env:PATH = "C:\Users\bpi\tools\node-v22.14.0-win-x64;$env:PATH"
+# Static build (no Cloudflare Workers plugin) at the subpath base:
+npx vite build --config vite.config.static.ts --base /developergame/
+
+$dst = "C:\Users\bpi\Documents\Claude Code\Personal Website\developergame"
+Remove-Item $dst -Recurse -Force
+Copy-Item dist $dst -Recurse
+
+# Then commit and push this repo (personal-website)
+git add developergame/
+git commit -m "Update Housing Developer Game snapshot"
+git push
+```
+
+`vite.config.static.ts` lives in the game repo and exists specifically for this snapshot build — the default `vite.config.ts` uses the Cloudflare Workers plugin, which produces a worker bundle instead of a plain static SPA.
 
 ## Aesthetic reference
 1980s Chicago postmodern — Helmut Jahn's Thompson Center geometry, Roger Brown's flat graphic sensibility. Bare-bones HTML + CSS; avoid over-engineering.
