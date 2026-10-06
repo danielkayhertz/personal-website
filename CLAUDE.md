@@ -18,6 +18,7 @@ Personal Website/
 ├── zoning-data.csv     # Downloadable zoning dataset
 ├── chicagoland-explorer/   # Compiled snapshot of the Chicagoland Explorer app (see below)
 ├── developergame/          # Compiled snapshot of the Housing Developer Game (see below)
+├── buildings/              # Compiled snapshot of Buildle, the building-guessing game (see below)
 ├── CLAUDE.md
 ├── Housing in Chicago.docx   # Source document for housing.html
 ├── Chicago Zoning History.zip
@@ -116,6 +117,31 @@ git push
 ```
 
 `vite.config.static.ts` lives in the game repo and exists specifically for this snapshot build — the default `vite.config.ts` uses the Cloudflare Workers plugin, which produces a worker bundle instead of a plain static SPA.
+
+### Buildle (`buildings/`)
+
+This is a **compiled snapshot** of Buildle, the Chicago building-guessing game (React + Vite + TS + Leaflet), not source code. The source lives at `C:\Users\bpi\Documents\Claude Code\chicago-building-game\` (GitHub: `danielkayhertz/chicago-building-game`, private). It is served at `danielkayhertz.com/buildings/`. Includes ~500 building photos (~48MB total).
+
+**Do not edit files in this directory directly.** The game repo refreshes its building pool monthly via GitHub Actions (1st of the month); the snapshot here does NOT update on its own. To update after a refresh or source change:
+
+```powershell
+# Run from C:\Users\bpi\Documents\Claude Code\chicago-building-game
+git pull; git lfs checkout          # get the refreshed pool + real photo bytes
+cd web
+$env:PATH = "C:\Users\bpi\tools\node-v22.14.0-win-x64;$env:PATH"
+npx vite build --config vite.config.static.ts   # base is already /buildings/
+
+$dst = "C:\Users\bpi\Documents\Claude Code\Personal Website\buildings"
+Remove-Item $dst -Recurse -Force
+Copy-Item dist $dst -Recurse
+
+# Then commit and push this repo (personal-website)
+git add buildings/
+git commit -m "Update Buildle snapshot"
+git push
+```
+
+Each refresh swaps all ~500 photos, so each snapshot update adds ~35MB to this repo's history — update occasionally, not every month.
 
 ## Aesthetic reference
 1980s Chicago postmodern — Helmut Jahn's Thompson Center geometry, Roger Brown's flat graphic sensibility. Bare-bones HTML + CSS; avoid over-engineering.
