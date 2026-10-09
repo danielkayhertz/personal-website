@@ -10,7 +10,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7440729,
+    "sv_lng": -87.6888281
   },
   {
     "pin": "11313130130000",
@@ -23,7 +25,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9985465,
+    "sv_lng": -87.6886894
   },
   {
     "pin": "26061040140000",
@@ -36,7 +40,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7360569,
+    "sv_lng": -87.5611289
   },
   {
     "pin": "19174200170000",
@@ -49,7 +55,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7801685,
+    "sv_lng": -87.76669
   },
   {
     "pin": "13142050190000",
@@ -62,7 +70,9 @@
     "stories": 2,
     "type_label": "Small multifamily (6 units)",
     "type_key": "small-multifamily",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9666189,
+    "sv_lng": -87.710514
   },
   {
     "pin": "13271080230000",
@@ -75,7 +85,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9366477,
+    "sv_lng": -87.7455163
   },
   {
     "pin": "17271220210000",
@@ -88,7 +100,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8456085,
+    "sv_lng": -87.6257762
   },
   {
     "pin": "12244160320000",
@@ -101,7 +115,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9401028,
+    "sv_lng": -87.8153755
   },
   {
     "pin": "13223180170000",
@@ -114,7 +130,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.941457,
+    "sv_lng": -87.7383349
   },
   {
     "pin": "17042120010000",
@@ -127,7 +145,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9076138,
+    "sv_lng": -87.6381944
   },
   {
     "pin": "13193170290000",
@@ -140,7 +160,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9411118,
+    "sv_lng": -87.8056153
   },
   {
     "pin": "13171150210000",
@@ -153,7 +175,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9625314,
+    "sv_lng": -87.7783074
   },
   {
     "pin": "11314100400000",
@@ -166,7 +190,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 42.002606,
+    "sv_lng": -87.6725742
   },
   {
     "pin": "14051250480000",
@@ -179,7 +205,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9917921,
+    "sv_lng": -87.6633664
   },
   {
     "pin": "14073060370000",
@@ -192,7 +220,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9735178,
+    "sv_lng": -87.6842056
   },
   {
     "pin": "25023020270000",
@@ -205,7 +235,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7290236,
+    "sv_lng": -87.5997968
   },
   {
     "pin": "19154290420000",
@@ -218,7 +250,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7786378,
+    "sv_lng": -87.7244324
   },
   {
     "pin": "20151090550000",
@@ -231,7 +265,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7910909,
+    "sv_lng": -87.6212294
   },
   {
     "pin": "13154040070000",
@@ -244,7 +280,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9600692,
+    "sv_lng": -87.7310256
   },
   {
     "pin": "19152250190000",
@@ -257,7 +295,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7870214,
+    "sv_lng": -87.7291139
   },
   {
     "pin": "17344250040000",
@@ -270,7 +310,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8248756,
+    "sv_lng": -87.6073758
   },
   {
     "pin": "19143210030000",
@@ -283,7 +325,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7814336,
+    "sv_lng": -87.7200314
   },
   {
     "pin": "20102310060000",
@@ -296,7 +340,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8028818,
+    "sv_lng": -87.6100596
   },
   {
     "pin": "20033040240000",
@@ -309,7 +355,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8166108,
+    "sv_lng": -87.6187087
   },
   {
     "pin": "13051000360000",
@@ -322,7 +370,9 @@
     "stories": 2,
     "type_label": "Three-flat",
     "type_key": "three-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9964495,
+    "sv_lng": -87.7862489
   },
   {
     "pin": "19033010270000",
@@ -335,7 +385,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8138163,
+    "sv_lng": -87.7408772
   },
   {
     "pin": "13171110580000",
@@ -348,7 +400,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9633284,
+    "sv_lng": -87.7832376
   },
   {
     "pin": "13092190230000",
@@ -361,7 +415,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9760968,
+    "sv_lng": -87.7577871
   },
   {
     "pin": "13362310100000",
@@ -374,7 +430,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9185827,
+    "sv_lng": -87.6878177
   },
   {
     "pin": "19013240310000",
@@ -387,7 +445,9 @@
     "stories": 1,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8113152,
+    "sv_lng": -87.6942914
   },
   {
     "pin": "19114070460000",
@@ -400,7 +460,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7970796,
+    "sv_lng": -87.7101354
   },
   {
     "pin": "25021170140000",
@@ -413,7 +475,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7304966,
+    "sv_lng": -87.5973986
   },
   {
     "pin": "11314100140000",
@@ -426,7 +490,9 @@
     "stories": 2,
     "type_label": "Small multifamily (4 units)",
     "type_key": "small-multifamily",
-    "style": null
+    "style": null,
+    "sv_lat": 42.0035037,
+    "sv_lng": -87.6735793
   },
   {
     "pin": "13204220340000",
@@ -439,7 +505,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9406047,
+    "sv_lng": -87.7714288
   },
   {
     "pin": "16084000120000",
@@ -452,7 +520,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8862541,
+    "sv_lng": -87.7734243
   },
   {
     "pin": "19141220300000",
@@ -465,7 +535,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7878478,
+    "sv_lng": -87.7174696
   },
   {
     "pin": "25021170010000",
@@ -556,7 +628,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.797146,
+    "sv_lng": -87.7057538
   },
   {
     "pin": "11312140320000",
@@ -569,7 +643,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 42.0076665,
+    "sv_lng": -87.6800701
   },
   {
     "pin": "13342090080000",
@@ -582,7 +658,9 @@
     "stories": 1,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9218264,
+    "sv_lng": -87.7364886
   },
   {
     "pin": "25023170180000",
@@ -595,7 +673,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7246309,
+    "sv_lng": -87.5960535
   },
   {
     "pin": "17282200080000",
@@ -608,7 +688,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8500665,
+    "sv_lng": -87.6322782
   },
   {
     "pin": "13011040200000",
@@ -621,7 +703,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.996973,
+    "sv_lng": -87.7032809
   },
   {
     "pin": "20354090030000",
@@ -634,7 +718,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7402,
+    "sv_lng": -87.5903449
   },
   {
     "pin": "14292080050000",
@@ -647,7 +733,9 @@
     "stories": 2,
     "type_label": "Three-flat",
     "type_key": "three-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9376368,
+    "sv_lng": -87.6576757
   },
   {
     "pin": "25032230300000",
@@ -660,7 +748,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.731159,
+    "sv_lng": -87.6057848
   },
   {
     "pin": "13033150140000",
@@ -673,7 +763,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9881598,
+    "sv_lng": -87.7386725
   },
   {
     "pin": "26172190460000",
@@ -686,7 +778,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.6968205,
+    "sv_lng": -87.5292276
   },
   {
     "pin": "13221050030000",
@@ -699,7 +793,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9535422,
+    "sv_lng": -87.7375133
   },
   {
     "pin": "19101020290000",
@@ -712,7 +808,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8068661,
+    "sv_lng": -87.7406933
   },
   {
     "pin": "19363200310000",
@@ -725,7 +823,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7371432,
+    "sv_lng": -87.6951676
   },
   {
     "pin": "10253090290000",
@@ -738,7 +838,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 42.0164818,
+    "sv_lng": -87.7054245
   },
   {
     "pin": "13281010230000",
@@ -751,7 +853,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9367704,
+    "sv_lng": -87.7648575
   },
   {
     "pin": "20034030090000",
@@ -764,7 +868,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.815945,
+    "sv_lng": -87.6116249
   },
   {
     "pin": "13081220100000",
@@ -777,7 +883,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9783536,
+    "sv_lng": -87.7795548
   },
   {
     "pin": "16041020140000",
@@ -790,7 +898,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9086508,
+    "sv_lng": -87.763402
   },
   {
     "pin": "13062030240000",
@@ -803,7 +913,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9960471,
+    "sv_lng": -87.7953137
   },
   {
     "pin": "11322000060000",
@@ -816,7 +928,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 42.0079876,
+    "sv_lng": -87.6612605
   },
   {
     "pin": "20362030030000",
@@ -829,7 +943,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7516626,
+    "sv_lng": -87.5717597
   },
   {
     "pin": "14182140170000",
@@ -842,7 +958,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9646219,
+    "sv_lng": -87.6746151
   },
   {
     "pin": "14064010050000",
@@ -855,7 +973,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9901679,
+    "sv_lng": -87.6715309
   },
   {
     "pin": "17293140590000",
@@ -868,7 +988,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8419407,
+    "sv_lng": -87.657373
   },
   {
     "pin": "19191140230000",
@@ -881,7 +1003,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7738499,
+    "sv_lng": -87.7951542
   },
   {
     "pin": "17282030140000",
@@ -894,7 +1018,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8518461,
+    "sv_lng": -87.632004
   },
   {
     "pin": "13201150160000",
@@ -907,7 +1033,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9493867,
+    "sv_lng": -87.779507
   },
   {
     "pin": "25024140250000",
@@ -920,7 +1048,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7240794,
+    "sv_lng": -87.5932771
   },
   {
     "pin": "25124230240000",
@@ -933,7 +1063,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7114565,
+    "sv_lng": -87.5597079
   },
   {
     "pin": "17053090020000",
@@ -946,7 +1078,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9006365,
+    "sv_lng": -87.6670466
   },
   {
     "pin": "13254020160000",
@@ -959,7 +1093,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9305866,
+    "sv_lng": -87.6951659
   },
   {
     "pin": "17344230040000",
@@ -972,7 +1108,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8250536,
+    "sv_lng": -87.6078658
   },
   {
     "pin": "19362290590000",
@@ -985,7 +1123,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7445987,
+    "sv_lng": -87.6859337
   },
   {
     "pin": "19353320630000",
@@ -998,7 +1138,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7367418,
+    "sv_lng": -87.7184339
   },
   {
     "pin": "20032100790000",
@@ -1011,7 +1153,9 @@
     "stories": 3,
     "type_label": "Small multifamily (6 units)",
     "type_key": "small-multifamily",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8203125,
+    "sv_lng": -87.6116364
   },
   {
     "pin": "13263060370000",
@@ -1024,7 +1168,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9304747,
+    "sv_lng": -87.7171458
   },
   {
     "pin": "25023110020000",
@@ -1037,7 +1183,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7276146,
+    "sv_lng": -87.5994135
   },
   {
     "pin": "13361160510000",
@@ -1050,7 +1198,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9179649,
+    "sv_lng": -87.7024551
   },
   {
     "pin": "26182040160000",
@@ -1063,7 +1213,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7018919,
+    "sv_lng": -87.5413248
   },
   {
     "pin": "19013210130000",
@@ -1076,7 +1228,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8107585,
+    "sv_lng": -87.6991786
   },
   {
     "pin": "13251200350000",
@@ -1089,7 +1243,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9350815,
+    "sv_lng": -87.7062827
   },
   {
     "pin": "13262050360000",
@@ -1102,7 +1258,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9384355,
+    "sv_lng": -87.7100299
   },
   {
     "pin": "26173070840000",
@@ -1115,7 +1273,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.6939823,
+    "sv_lng": -87.5305025
   },
   {
     "pin": "12014040110000",
@@ -1128,7 +1288,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9885597,
+    "sv_lng": -87.8083444
   },
   {
     "pin": "13363160130000",
@@ -1141,7 +1303,9 @@
     "stories": 3,
     "type_label": "Three-flat",
     "type_key": "three-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9128068,
+    "sv_lng": -87.7067892
   },
   {
     "pin": "17042230340000",
@@ -1154,7 +1318,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9039133,
+    "sv_lng": -87.631026
   },
   {
     "pin": "19231140120000",
@@ -1167,7 +1333,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7760217,
+    "sv_lng": -87.7162935
   },
   {
     "pin": "21312040480000",
@@ -1180,7 +1348,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7516949,
+    "sv_lng": -87.5492563
   },
   {
     "pin": "16093000080000",
@@ -1193,7 +1363,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8872217,
+    "sv_lng": -87.7638996
   },
   {
     "pin": "14204030040000",
@@ -1206,7 +1378,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9466889,
+    "sv_lng": -87.6561104
   },
   {
     "pin": "16021030050000",
@@ -1219,7 +1393,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9098992,
+    "sv_lng": -87.722043
   },
   {
     "pin": "14054010340000",
@@ -1232,7 +1408,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9883172,
+    "sv_lng": -87.6567557
   },
   {
     "pin": "13203000310000",
@@ -1245,7 +1423,9 @@
     "stories": 2,
     "type_label": "Three-flat",
     "type_key": "three-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9447591,
+    "sv_lng": -87.785933
   },
   {
     "pin": "17091150120000",
@@ -1258,7 +1438,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8964607,
+    "sv_lng": -87.6407907
   },
   {
     "pin": "16041190080000",
@@ -1271,7 +1453,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.905092,
+    "sv_lng": -87.7597497
   },
   {
     "pin": "13273120290000",
@@ -1284,7 +1468,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9272375,
+    "sv_lng": -87.7447397
   },
   {
     "pin": "14213130180000",
@@ -1297,7 +1483,9 @@
     "stories": 2,
     "type_label": "Small multifamily (4 units)",
     "type_key": "small-multifamily",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9411047,
+    "sv_lng": -87.6472437
   },
   {
     "pin": "13033030650000",
@@ -1310,7 +1498,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9899016,
+    "sv_lng": -87.7439776
   },
   {
     "pin": "14291100260000",
@@ -1323,7 +1513,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9379821,
+    "sv_lng": -87.6617592
   },
   {
     "pin": "20294160360000",
@@ -1336,7 +1528,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7530398,
+    "sv_lng": -87.6525955
   },
   {
     "pin": "25033020270000",
@@ -1349,7 +1543,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.728246,
+    "sv_lng": -87.6191567
   },
   {
     "pin": "11303000090000",
@@ -1362,7 +1558,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 42.0192836,
+    "sv_lng": -87.688969
   },
   {
     "pin": "13153061470000",
@@ -1375,7 +1573,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9590201,
+    "sv_lng": -87.7431053
   },
   {
     "pin": "12113100110000",
@@ -1388,7 +1588,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9718823,
+    "sv_lng": -87.8452942
   },
   {
     "pin": "14053110300000",
@@ -1401,7 +1603,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9871659,
+    "sv_lng": -87.6679059
   },
   {
     "pin": "14311050040000",
@@ -1414,7 +1618,9 @@
     "stories": 3,
     "type_label": "Small multifamily (6 units)",
     "type_key": "small-multifamily",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9229908,
+    "sv_lng": -87.6875831
   },
   {
     "pin": "14183140240000",
@@ -1427,7 +1633,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9577833,
+    "sv_lng": -87.6802871
   },
   {
     "pin": "17293210420000",
@@ -1440,7 +1648,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8393536,
+    "sv_lng": -87.6605925
   },
   {
     "pin": "25032190280000",
@@ -1453,7 +1663,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7320707,
+    "sv_lng": -87.6057192
   },
   {
     "pin": "13352050190000",
@@ -1466,7 +1678,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9233534,
+    "sv_lng": -87.7120662
   },
   {
     "pin": "19182140250000",
@@ -1479,7 +1693,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7890887,
+    "sv_lng": -87.7829083
   },
   {
     "pin": "17064050060000",
@@ -1492,7 +1708,9 @@
     "stories": null,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9032799,
+    "sv_lng": -87.6716883
   },
   {
     "pin": "13141090180000",
@@ -1505,7 +1723,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9650188,
+    "sv_lng": -87.7255032
   },
   {
     "pin": "17284000260000",
@@ -1518,7 +1738,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8450309,
+    "sv_lng": -87.6355009
   },
   {
     "pin": "14281180050000",
@@ -1531,7 +1753,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9355692,
+    "sv_lng": -87.6411373
   },
   {
     "pin": "26173070910000",
@@ -1544,7 +1768,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.6934069,
+    "sv_lng": -87.5305011
   },
   {
     "pin": "13233170410000",
@@ -1557,7 +1783,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9409266,
+    "sv_lng": -87.726487
   },
   {
     "pin": "14083170400000",
@@ -1570,7 +1798,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9692685,
+    "sv_lng": -87.6610551
   },
   {
     "pin": "20141060270000",
@@ -1583,7 +1813,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7932524,
+    "sv_lng": -87.5972697
   },
   {
     "pin": "25034160070000",
@@ -1596,7 +1828,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7265899,
+    "sv_lng": -87.6062667
   },
   {
     "pin": "17092430220000",
@@ -1609,7 +1843,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8915495,
+    "sv_lng": -87.6363164
   },
   {
     "pin": "19354060780000",
@@ -1622,7 +1858,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7415294,
+    "sv_lng": -87.7056624
   },
   {
     "pin": "16152000300000",
@@ -1635,7 +1873,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8796614,
+    "sv_lng": -87.7338974
   },
   {
     "pin": "19113060080000",
@@ -1648,7 +1888,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8004303,
+    "sv_lng": -87.7147853
   },
   {
     "pin": "13131090160000",
@@ -1661,7 +1903,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9656314,
+    "sv_lng": -87.7030507
   },
   {
     "pin": "12232160220000",
@@ -1674,7 +1918,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9484244,
+    "sv_lng": -87.8356828
   },
   {
     "pin": "12234220130000",
@@ -1687,7 +1933,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9399114,
+    "sv_lng": -87.828853
   },
   {
     "pin": "19143210070000",
@@ -1700,7 +1948,9 @@
     "stories": null,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7814403,
+    "sv_lng": -87.7196008
   },
   {
     "pin": "25034320150000",
@@ -1713,7 +1963,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7234133,
+    "sv_lng": -87.6072037
   },
   {
     "pin": "11323050270000",
@@ -1726,7 +1978,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 42.0051709,
+    "sv_lng": -87.6608829
   },
   {
     "pin": "16093190330000",
@@ -1739,7 +1993,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8819646,
+    "sv_lng": -87.763245
   },
   {
     "pin": "13231120070000",
@@ -1752,7 +2008,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9511444,
+    "sv_lng": -87.722636
   },
   {
     "pin": "14073150240000",
@@ -1765,7 +2023,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9719318,
+    "sv_lng": -87.6816994
   },
   {
     "pin": "20324230240000",
@@ -1778,7 +2038,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7390808,
+    "sv_lng": -87.6449205
   },
   {
     "pin": "20363130470000",
@@ -1791,7 +2053,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7413764,
+    "sv_lng": -87.5782217
   },
   {
     "pin": "14182180050000",
@@ -1804,7 +2068,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9622388,
+    "sv_lng": -87.6789859
   },
   {
     "pin": "10321220040000",
@@ -1817,7 +2083,9 @@
     "stories": null,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 42.0087642,
+    "sv_lng": -87.7764439
   },
   {
     "pin": "16044090090000",
@@ -1830,7 +2098,9 @@
     "stories": null,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8996501,
+    "sv_lng": -87.7532682
   },
   {
     "pin": "13253150230000",
@@ -1843,7 +2113,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9274419,
+    "sv_lng": -87.7028975
   },
   {
     "pin": "16092000290000",
@@ -1856,7 +2128,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.893962,
+    "sv_lng": -87.7543442
   },
   {
     "pin": "21313160320000",
@@ -1869,7 +2143,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7390319,
+    "sv_lng": -87.5651785
   },
   {
     "pin": "16092030290000",
@@ -1882,7 +2158,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8940345,
+    "sv_lng": -87.7490405
   },
   {
     "pin": "14171160100000",
@@ -1895,7 +2173,9 @@
     "stories": 3,
     "type_label": "Three-flat",
     "type_key": "three-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9639669,
+    "sv_lng": -87.6637528
   },
   {
     "pin": "13201020010000",
@@ -1908,7 +2188,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9527362,
+    "sv_lng": -87.7792064
   },
   {
     "pin": "19342140290000",
@@ -1921,7 +2203,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7442259,
+    "sv_lng": -87.7224144
   },
   {
     "pin": "20032050340000",
@@ -1934,7 +2218,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8211567,
+    "sv_lng": -87.6145691
   },
   {
     "pin": "13064140260000",
@@ -1947,7 +2233,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9848238,
+    "sv_lng": -87.7894506
   },
   {
     "pin": "13083120130000",
@@ -1960,7 +2248,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9726594,
+    "sv_lng": -87.7794509
   },
   {
     "pin": "14192270420000",
@@ -1973,7 +2263,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.946892,
+    "sv_lng": -87.6766808
   },
   {
     "pin": "13242040170000",
@@ -1986,7 +2278,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9515059,
+    "sv_lng": -87.6907608
   },
   {
     "pin": "13141060270000",
@@ -1999,7 +2293,9 @@
     "stories": 2,
     "type_label": "Three-flat",
     "type_key": "three-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9671129,
+    "sv_lng": -87.7182191
   },
   {
     "pin": "14204100070000",
@@ -2012,7 +2308,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9454457,
+    "sv_lng": -87.6515421
   },
   {
     "pin": "20064090290000",
@@ -2025,7 +2323,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8134951,
+    "sv_lng": -87.6687502
   },
   {
     "pin": "20083180320000",
@@ -2038,7 +2338,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7943605,
+    "sv_lng": -87.6621626
   },
   {
     "pin": "25031010240000",
@@ -2051,7 +2353,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7350375,
+    "sv_lng": -87.6225699
   },
   {
     "pin": "14203010270000",
@@ -2064,7 +2368,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.945942,
+    "sv_lng": -87.6664108
   },
   {
     "pin": "14052090260000",
@@ -2077,7 +2383,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9940519,
+    "sv_lng": -87.6583328
   },
   {
     "pin": "20024020050000",
@@ -2090,7 +2398,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8126784,
+    "sv_lng": -87.5968871
   },
   {
     "pin": "25023060080000",
@@ -2103,7 +2413,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7294842,
+    "sv_lng": -87.5953337
   },
   {
     "pin": "10362230180000",
@@ -2116,7 +2428,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 42.0064352,
+    "sv_lng": -87.6973901
   },
   {
     "pin": "14312000220000",
@@ -2129,7 +2443,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9240506,
+    "sv_lng": -87.6760077
   },
   {
     "pin": "25023020480000",
@@ -2142,7 +2458,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7275985,
+    "sv_lng": -87.6006246
   },
   {
     "pin": "12232090010000",
@@ -2155,7 +2473,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9502621,
+    "sv_lng": -87.8350662
   },
   {
     "pin": "16084200230000",
@@ -2168,7 +2488,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8804858,
+    "sv_lng": -87.7717979
   },
   {
     "pin": "13114170310000",
@@ -2181,7 +2503,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9701964,
+    "sv_lng": -87.7162121
   },
   {
     "pin": "13022100520000",
@@ -2194,7 +2518,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9925411,
+    "sv_lng": -87.7152796
   },
   {
     "pin": "10253250180000",
@@ -2207,7 +2533,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 42.012806,
+    "sv_lng": -87.7076692
   },
   {
     "pin": "13223160310000",
@@ -2220,7 +2548,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9417055,
+    "sv_lng": -87.7395697
   },
   {
     "pin": "25031300830000",
@@ -2233,7 +2563,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7315574,
+    "sv_lng": -87.621667
   },
   {
     "pin": "16054150200000",
@@ -2246,7 +2578,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9003121,
+    "sv_lng": -87.7659347
   },
   {
     "pin": "19134160100000",
@@ -2259,7 +2593,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7818894,
+    "sv_lng": -87.6934735
   },
   {
     "pin": "20254300300000",
@@ -2272,7 +2608,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7529414,
+    "sv_lng": -87.5662602
   },
   {
     "pin": "20283130310000",
@@ -2285,7 +2623,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7555088,
+    "sv_lng": -87.6344243
   },
   {
     "pin": "19122040200000",
@@ -2298,7 +2638,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8072748,
+    "sv_lng": -87.6892925
   },
   {
     "pin": "13081190290000",
@@ -2311,7 +2653,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.978503,
+    "sv_lng": -87.7822904
   },
   {
     "pin": "14082060080000",
@@ -2324,7 +2668,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9807378,
+    "sv_lng": -87.6565311
   },
   {
     "pin": "09364150320000",
@@ -2337,7 +2683,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 42.0026511,
+    "sv_lng": -87.8070984
   },
   {
     "pin": "14203080140000",
@@ -2350,7 +2698,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9451924,
+    "sv_lng": -87.6679472
   },
   {
     "pin": "17351080010000",
@@ -2363,7 +2713,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.824708,
+    "sv_lng": -87.6055468
   },
   {
     "pin": "19212140650000",
@@ -2376,7 +2728,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7768096,
+    "sv_lng": -87.748972
   },
   {
     "pin": "13103060010000",
@@ -2389,7 +2743,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9745006,
+    "sv_lng": -87.7380742
   },
   {
     "pin": "13014290310000",
@@ -2402,7 +2758,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9831437,
+    "sv_lng": -87.6936983
   },
   {
     "pin": "13263190230000",
@@ -2415,7 +2773,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9276853,
+    "sv_lng": -87.7207402
   },
   {
     "pin": "13131000300000",
@@ -2428,7 +2788,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9666425,
+    "sv_lng": -87.7075505
   },
   {
     "pin": "13214160210000",
@@ -2441,7 +2803,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9398738,
+    "sv_lng": -87.7567296
   },
   {
     "pin": "09362240290000",
@@ -2454,7 +2818,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 42.0046116,
+    "sv_lng": -87.815098
   },
   {
     "pin": "25034130210000",
@@ -2467,7 +2833,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7261387,
+    "sv_lng": -87.6142622
   },
   {
     "pin": "13032160320000",
@@ -2480,7 +2848,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9942436,
+    "sv_lng": -87.7301001
   },
   {
     "pin": "25032000120000",
@@ -2493,7 +2863,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7365216,
+    "sv_lng": -87.6133561
   },
   {
     "pin": "26064150140000",
@@ -2506,7 +2878,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7248564,
+    "sv_lng": -87.5538931
   },
   {
     "pin": "14081130240000",
@@ -2519,7 +2893,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9808522,
+    "sv_lng": -87.6599941
   },
   {
     "pin": "17273041150000",
@@ -2532,7 +2908,9 @@
     "stories": 3,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8427007,
+    "sv_lng": -87.6224445
   },
   {
     "pin": "13073300010000",
@@ -2545,7 +2923,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9719128,
+    "sv_lng": -87.804458
   },
   {
     "pin": "14062100220000",
@@ -2558,7 +2938,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9947526,
+    "sv_lng": -87.6719005
   },
   {
     "pin": "13201120080000",
@@ -2571,7 +2953,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9503005,
+    "sv_lng": -87.7781691
   },
   {
     "pin": "19154110070000",
@@ -2584,7 +2968,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7834225,
+    "sv_lng": -87.7290077
   },
   {
     "pin": "17322160630000",
@@ -2597,7 +2983,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.834061,
+    "sv_lng": -87.654693
   },
   {
     "pin": "20064070220000",
@@ -2610,7 +2998,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8140057,
+    "sv_lng": -87.671534
   },
   {
     "pin": "25031190200000",
@@ -2623,7 +3013,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7309409,
+    "sv_lng": -87.6180341
   },
   {
     "pin": "14281000320000",
@@ -2636,7 +3028,9 @@
     "stories": 3,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9393257,
+    "sv_lng": -87.6468102
   },
   {
     "pin": "13012040280000",
@@ -2649,7 +3043,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9965064,
+    "sv_lng": -87.6935158
   },
   {
     "pin": "14301110300000",
@@ -2662,7 +3058,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9371218,
+    "sv_lng": -87.6807049
   },
   {
     "pin": "20114030010000",
@@ -2675,7 +3073,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.802088,
+    "sv_lng": -87.5918396
   },
   {
     "pin": "13151110210000",
@@ -2688,7 +3088,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9652975,
+    "sv_lng": -87.7427507
   },
   {
     "pin": "13171061250000",
@@ -2701,7 +3103,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9646951,
+    "sv_lng": -87.783292
   },
   {
     "pin": "13322030370000",
@@ -2714,7 +3118,9 @@
     "stories": null,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9226387,
+    "sv_lng": -87.7708079
   },
   {
     "pin": "13224020180000",
@@ -2727,7 +3133,9 @@
     "stories": 2,
     "type_label": "Small multifamily (4 units)",
     "type_key": "small-multifamily",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9462888,
+    "sv_lng": -87.7341049
   },
   {
     "pin": "14174070140000",
@@ -2740,7 +3148,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9609516,
+    "sv_lng": -87.6511869
   },
   {
     "pin": "14163050010000",
@@ -2753,7 +3163,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9556635,
+    "sv_lng": -87.649427
   },
   {
     "pin": "13154180010000",
@@ -2766,7 +3178,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9572967,
+    "sv_lng": -87.7288552
   },
   {
     "pin": "26173070820000",
@@ -2779,7 +3193,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.6941468,
+    "sv_lng": -87.5305029
   },
   {
     "pin": "10362060320000",
@@ -2792,7 +3208,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 42.010398,
+    "sv_lng": -87.6937757
   },
   {
     "pin": "19012060040000",
@@ -2805,7 +3223,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8206161,
+    "sv_lng": -87.6917844
   },
   {
     "pin": "26173070940000",
@@ -2818,7 +3238,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.6931599,
+    "sv_lng": -87.5305006
   },
   {
     "pin": "13084250450000",
@@ -2831,7 +3253,9 @@
     "stories": 3,
     "type_label": "Small multifamily (6 units)",
     "type_key": "small-multifamily",
-    "style": null
+    "style": null,
+    "sv_lat": 41.970944,
+    "sv_lng": -87.7698621
   },
   {
     "pin": "25033220030000",
@@ -2844,7 +3268,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.723599,
+    "sv_lng": -87.6217769
   },
   {
     "pin": "17344220040000",
@@ -2857,7 +3283,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8239134,
+    "sv_lng": -87.6109352
   },
   {
     "pin": "13084130440000",
@@ -2870,7 +3298,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9717033,
+    "sv_lng": -87.7727179
   },
   {
     "pin": "19153130230000",
@@ -2883,7 +3313,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7830485,
+    "sv_lng": -87.7338884
   },
   {
     "pin": "26171050100000",
@@ -2896,7 +3328,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7020665,
+    "sv_lng": -87.5340715
   },
   {
     "pin": "21303220080000",
@@ -2909,7 +3343,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7546203,
+    "sv_lng": -87.5614444
   },
   {
     "pin": "14204260340000",
@@ -2922,7 +3358,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9406627,
+    "sv_lng": -87.6512481
   },
   {
     "pin": "16082190240000",
@@ -2935,7 +3373,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8890246,
+    "sv_lng": -87.7730633
   },
   {
     "pin": "11322020150000",
@@ -2948,7 +3388,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 42.005573,
+    "sv_lng": -87.6595045
   },
   {
     "pin": "14331060080000",
@@ -2961,7 +3403,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.924374,
+    "sv_lng": -87.6397273
   },
   {
     "pin": "10253130070000",
@@ -2974,7 +3418,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 42.0164715,
+    "sv_lng": -87.7058969
   },
   {
     "pin": "17153060100000",
@@ -2987,7 +3433,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8699665,
+    "sv_lng": -87.6274345
   },
   {
     "pin": "16162110590000",
@@ -3000,7 +3448,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8776461,
+    "sv_lng": -87.7482415
   },
   {
     "pin": "10363030150000",
@@ -3013,7 +3463,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 42.0037295,
+    "sv_lng": -87.7046142
   },
   {
     "pin": "19154060400000",
@@ -3026,7 +3478,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.785921,
+    "sv_lng": -87.7249964
   },
   {
     "pin": "13284210190000",
@@ -3039,7 +3493,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9266786,
+    "sv_lng": -87.7513244
   },
   {
     "pin": "13213120320000",
@@ -3052,7 +3508,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.942852,
+    "sv_lng": -87.7641836
   },
   {
     "pin": "13152320110000",
@@ -3065,7 +3523,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9626814,
+    "sv_lng": -87.7361075
   },
   {
     "pin": "19154190190000",
@@ -3078,7 +3538,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7804321,
+    "sv_lng": -87.7273425
   },
   {
     "pin": "19364080420000",
@@ -3091,7 +3553,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7401361,
+    "sv_lng": -87.6906592
   },
   {
     "pin": "14314010050000",
@@ -3104,7 +3568,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9177917,
+    "sv_lng": -87.6758854
   },
   {
     "pin": "13222080220000",
@@ -3117,7 +3583,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9505076,
+    "sv_lng": -87.7353538
   },
   {
     "pin": "13364120010000",
@@ -3130,7 +3598,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9154803,
+    "sv_lng": -87.6934724
   },
   {
     "pin": "13232200060000",
@@ -3143,7 +3613,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9488482,
+    "sv_lng": -87.7140003
   },
   {
     "pin": "25031190210000",
@@ -3156,7 +3628,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7312202,
+    "sv_lng": -87.617614
   },
   {
     "pin": "20362180130000",
@@ -3169,7 +3643,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.746821,
+    "sv_lng": -87.5734647
   },
   {
     "pin": "13253190200000",
@@ -3182,7 +3658,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9266256,
+    "sv_lng": -87.6983407
   },
   {
     "pin": "13342250350000",
@@ -3195,7 +3673,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9179911,
+    "sv_lng": -87.7348583
   },
   {
     "pin": "20361200400000",
@@ -3208,7 +3688,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7460669,
+    "sv_lng": -87.5820868
   },
   {
     "pin": "13263290390000",
@@ -3221,7 +3703,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9245934,
+    "sv_lng": -87.7187795
   },
   {
     "pin": "19233010020000",
@@ -3234,7 +3718,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7711474,
+    "sv_lng": -87.7201201
   },
   {
     "pin": "19124290090000",
@@ -3247,7 +3733,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7943333,
+    "sv_lng": -87.6877133
   },
   {
     "pin": "25032160370000",
@@ -3260,7 +3748,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7319683,
+    "sv_lng": -87.6125925
   },
   {
     "pin": "13152240250000",
@@ -3273,7 +3763,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9643816,
+    "sv_lng": -87.7347114
   },
   {
     "pin": "13173110440000",
@@ -3286,7 +3778,9 @@
     "stories": 3,
     "type_label": "Small multifamily (6 units)",
     "type_key": "small-multifamily",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9529386,
+    "sv_lng": -87.7850581
   },
   {
     "pin": "13093070130000",
@@ -3299,7 +3793,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.975204,
+    "sv_lng": -87.7588512
   },
   {
     "pin": "13214020540000",
@@ -3312,7 +3808,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9442167,
+    "sv_lng": -87.753785
   },
   {
     "pin": "14213050280000",
@@ -3325,7 +3823,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9453611,
+    "sv_lng": -87.644211
   },
   {
     "pin": "13284170110000",
@@ -3338,7 +3838,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9278273,
+    "sv_lng": -87.7524231
   },
   {
     "pin": "13043050090000",
@@ -3351,7 +3853,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9865439,
+    "sv_lng": -87.7649377
   },
   {
     "pin": "13213010120000",
@@ -3364,7 +3868,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9456789,
+    "sv_lng": -87.7618264
   },
   {
     "pin": "16084210180000",
@@ -3377,7 +3883,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8812106,
+    "sv_lng": -87.7681523
   },
   {
     "pin": "13164000160000",
@@ -3390,7 +3898,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9606286,
+    "sv_lng": -87.755135
   },
   {
     "pin": "19024010050000",
@@ -3403,7 +3913,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8149341,
+    "sv_lng": -87.7126733
   },
   {
     "pin": "13363150080000",
@@ -3416,7 +3928,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.915057,
+    "sv_lng": -87.6981538
   },
   {
     "pin": "20332130300000",
@@ -3429,7 +3943,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7477776,
+    "sv_lng": -87.626951
   },
   {
     "pin": "14314240420000",
@@ -3442,7 +3958,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9105075,
+    "sv_lng": -87.6765913
   },
   {
     "pin": "13122270320000",
@@ -3455,7 +3973,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9767412,
+    "sv_lng": -87.6975481
   },
   {
     "pin": "17044490360000",
@@ -3468,7 +3988,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8976541,
+    "sv_lng": -87.629804
   },
   {
     "pin": "14173130270000",
@@ -3481,7 +4003,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9552553,
+    "sv_lng": -87.6663669
   },
   {
     "pin": "13211080190000",
@@ -3494,7 +4018,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9513495,
+    "sv_lng": -87.7653618
   },
   {
     "pin": "25034220300000",
@@ -3507,7 +4033,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7256745,
+    "sv_lng": -87.6067033
   },
   {
     "pin": "19143140340000",
@@ -3520,7 +4048,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7824043,
+    "sv_lng": -87.7166866
   },
   {
     "pin": "11312180170000",
@@ -3533,7 +4063,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 42.0085111,
+    "sv_lng": -87.6700583
   },
   {
     "pin": "14293100390000",
@@ -3546,7 +4078,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9289341,
+    "sv_lng": -87.6589302
   },
   {
     "pin": "14312160460000",
@@ -3559,7 +4093,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9189246,
+    "sv_lng": -87.6730888
   },
   {
     "pin": "16032280180000",
@@ -3572,7 +4108,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9041027,
+    "sv_lng": -87.7337285
   },
   {
     "pin": "13344220020000",
@@ -3585,7 +4123,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.913321,
+    "sv_lng": -87.727654
   },
   {
     "pin": "13362270220000",
@@ -3598,7 +4138,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9198868,
+    "sv_lng": -87.6965711
   },
   {
     "pin": "14073210370000",
@@ -3611,7 +4153,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9689627,
+    "sv_lng": -87.6840517
   },
   {
     "pin": "13063000190000",
@@ -3624,7 +4168,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9887533,
+    "sv_lng": -87.8056576
   },
   {
     "pin": "16054310230000",
@@ -3637,7 +4183,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8961175,
+    "sv_lng": -87.7654359
   },
   {
     "pin": "13251090240000",
@@ -3650,7 +4198,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9376029,
+    "sv_lng": -87.7002216
   },
   {
     "pin": "25014100160000",
@@ -3663,7 +4213,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7267138,
+    "sv_lng": -87.5730239
   },
   {
     "pin": "16012150290000",
@@ -3676,7 +4228,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9080295,
+    "sv_lng": -87.6871422
   },
   {
     "pin": "12243270150000",
@@ -3689,7 +4243,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9381121,
+    "sv_lng": -87.822628
   },
   {
     "pin": "20114110260000",
@@ -3702,7 +4258,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.800994,
+    "sv_lng": -87.5898928
   },
   {
     "pin": "26173070850000",
@@ -3715,7 +4273,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.6939008,
+    "sv_lng": -87.5305023
   },
   {
     "pin": "13114210190000",
@@ -3728,7 +4288,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9712415,
+    "sv_lng": -87.7110017
   },
   {
     "pin": "19154110220000",
@@ -3741,7 +4303,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7837683,
+    "sv_lng": -87.7277938
   },
   {
     "pin": "14051110040000",
@@ -3754,7 +4318,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9954514,
+    "sv_lng": -87.6671868
   },
   {
     "pin": "25014100350000",
@@ -3767,7 +4333,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7261563,
+    "sv_lng": -87.5726031
   },
   {
     "pin": "20102120170000",
@@ -3780,7 +4348,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8058473,
+    "sv_lng": -87.6097731
   },
   {
     "pin": "25034160120000",
@@ -3793,7 +4363,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7265978,
+    "sv_lng": -87.6058087
   },
   {
     "pin": "14213140330000",
@@ -3806,7 +4378,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9400804,
+    "sv_lng": -87.6416847
   },
   {
     "pin": "13361070790000",
@@ -3819,7 +4393,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.922421,
+    "sv_lng": -87.698656
   },
   {
     "pin": "21313130070000",
@@ -3832,7 +4408,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7413314,
+    "sv_lng": -87.558774
   },
   {
     "pin": "16052150310000",
@@ -3845,7 +4423,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.906367,
+    "sv_lng": -87.7658048
   },
   {
     "pin": "19231250540000",
@@ -3858,7 +4438,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7732694,
+    "sv_lng": -87.7183694
   },
   {
     "pin": "13284190040000",
@@ -3871,7 +4453,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9278896,
+    "sv_lng": -87.7479226
   },
   {
     "pin": "10363120370000",
@@ -3884,7 +4468,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 42.0005992,
+    "sv_lng": -87.7082774
   },
   {
     "pin": "13024330170000",
@@ -3897,7 +4483,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9830594,
+    "sv_lng": -87.7103791
   },
   {
     "pin": "14333130430000",
@@ -3910,7 +4498,9 @@
     "stories": 3,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9128006,
+    "sv_lng": -87.6471214
   },
   {
     "pin": "09254190530000",
@@ -3923,7 +4513,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 42.0133669,
+    "sv_lng": -87.8130536
   },
   {
     "pin": "13352170180000",
@@ -3936,7 +4528,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9221864,
+    "sv_lng": -87.7074891
   },
   {
     "pin": "19122200230000",
@@ -3949,7 +4543,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8021636,
+    "sv_lng": -87.6891419
   },
   {
     "pin": "13352110070000",
@@ -3962,7 +4558,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9228254,
+    "sv_lng": -87.7128525
   },
   {
     "pin": "13362250080000",
@@ -3975,7 +4573,9 @@
     "stories": null,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9199628,
+    "sv_lng": -87.6905218
   },
   {
     "pin": "10362070120000",
@@ -3988,7 +4588,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 42.0110554,
+    "sv_lng": -87.6902118
   },
   {
     "pin": "14172020070000",
@@ -4001,7 +4603,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9677759,
+    "sv_lng": -87.6576148
   },
   {
     "pin": "25023020260000",
@@ -4014,7 +4618,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7290922,
+    "sv_lng": -87.5997984
   },
   {
     "pin": "13124190600000",
@@ -4027,7 +4633,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.969705,
+    "sv_lng": -87.6904249
   },
   {
     "pin": "14171160140000",
@@ -4040,7 +4648,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9653279,
+    "sv_lng": -87.6628111
   },
   {
     "pin": "17094190020000",
@@ -4053,7 +4663,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8868191,
+    "sv_lng": -87.6315777
   },
   {
     "pin": "13233120120000",
@@ -4066,7 +4678,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9435225,
+    "sv_lng": -87.7236429
   },
   {
     "pin": "13282060250000",
@@ -4079,7 +4693,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9369613,
+    "sv_lng": -87.7506273
   },
   {
     "pin": "25044060380000",
@@ -4092,7 +4708,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7271824,
+    "sv_lng": -87.6255318
   },
   {
     "pin": "14331090230000",
@@ -4105,7 +4723,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9230657,
+    "sv_lng": -87.6454195
   },
   {
     "pin": "17283090020000",
@@ -4118,7 +4738,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8430718,
+    "sv_lng": -87.6463964
   },
   {
     "pin": "14183260140000",
@@ -4131,7 +4753,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9559321,
+    "sv_lng": -87.6823113
   },
   {
     "pin": "14192240330000",
@@ -4144,7 +4768,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9495572,
+    "sv_lng": -87.6689853
   },
   {
     "pin": "13254280020000",
@@ -4157,7 +4783,9 @@
     "stories": 2,
     "type_label": "Three-flat",
     "type_key": "three-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9266764,
+    "sv_lng": -87.6922363
   },
   {
     "pin": "19013240350000",
@@ -4170,7 +4798,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8110415,
+    "sv_lng": -87.6942827
   },
   {
     "pin": "14181020390000",
@@ -4183,7 +4813,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9686566,
+    "sv_lng": -87.6859091
   },
   {
     "pin": "11291030200000",
@@ -4196,7 +4828,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 42.020734,
+    "sv_lng": -87.6653503
   },
   {
     "pin": "17053190510000",
@@ -4209,7 +4843,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8988784,
+    "sv_lng": -87.6628068
   },
   {
     "pin": "13042230790000",
@@ -5002,7 +5638,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9551141,
+    "sv_lng": -87.7584994
   },
   {
     "pin": "13163000350000",
@@ -5015,7 +5653,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9598632,
+    "sv_lng": -87.7647632
   },
   {
     "pin": "26063210040000",
@@ -5028,7 +5668,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7263614,
+    "sv_lng": -87.5560919
   },
   {
     "pin": "10363180060000",
@@ -5041,7 +5683,9 @@
     "stories": 3,
     "type_label": "Three-flat",
     "type_key": "three-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 42.0003041,
+    "sv_lng": -87.7021525
   },
   {
     "pin": "13203050050000",
@@ -5054,7 +5698,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.944788,
+    "sv_lng": -87.7831525
   },
   {
     "pin": "13332280150000",
@@ -5067,7 +5713,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.917443,
+    "sv_lng": -87.7498322
   },
   {
     "pin": "20084210600000",
@@ -5080,7 +5728,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7959907,
+    "sv_lng": -87.6489855
   },
   {
     "pin": "13011100190000",
@@ -5093,7 +5743,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9956835,
+    "sv_lng": -87.7059926
   },
   {
     "pin": "25024110420000",
@@ -5106,7 +5758,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7262334,
+    "sv_lng": -87.5866885
   },
   {
     "pin": "13122220240000",
@@ -5119,7 +5773,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.978315,
+    "sv_lng": -87.6965658
   },
   {
     "pin": "09253070420000",
@@ -5132,7 +5788,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 42.0175869,
+    "sv_lng": -87.8163491
   },
   {
     "pin": "12243040530000",
@@ -5145,7 +5803,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9435795,
+    "sv_lng": -87.8216227
   },
   {
     "pin": "13333140360000",
@@ -5158,7 +5818,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9117274,
+    "sv_lng": -87.7606346
   },
   {
     "pin": "17331220130000",
@@ -5171,7 +5833,9 @@
     "stories": 3,
     "type_label": "Three-flat",
     "type_key": "three-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8334412,
+    "sv_lng": -87.6412865
   },
   {
     "pin": "14312080090000",
@@ -5184,7 +5848,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.920885,
+    "sv_lng": -87.6777513
   },
   {
     "pin": "17093180010000",
@@ -5197,7 +5863,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8853552,
+    "sv_lng": -87.6474715
   },
   {
     "pin": "25021110280000",
@@ -5210,7 +5878,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7302868,
+    "sv_lng": -87.6029906
   },
   {
     "pin": "20102300040000",
@@ -5223,7 +5893,9 @@
     "stories": 3,
     "type_label": "Small multifamily (6 units)",
     "type_key": "small-multifamily",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8021732,
+    "sv_lng": -87.6119967
   },
   {
     "pin": "13093130370000",
@@ -5236,7 +5908,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9727573,
+    "sv_lng": -87.7576819
   },
   {
     "pin": "26051120460000",
@@ -5249,7 +5923,9 @@
     "stories": 3,
     "type_label": "Small multifamily (6 units)",
     "type_key": "small-multifamily",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7283338,
+    "sv_lng": -87.5451507
   },
   {
     "pin": "13151090190000",
@@ -5262,7 +5938,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9657999,
+    "sv_lng": -87.7452324
   },
   {
     "pin": "13162180060000",
@@ -5275,7 +5953,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9624489,
+    "sv_lng": -87.7557763
   },
   {
     "pin": "13281120040000",
@@ -5288,7 +5968,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9368221,
+    "sv_lng": -87.7610081
   },
   {
     "pin": "12014110250000",
@@ -5301,7 +5983,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9826445,
+    "sv_lng": -87.8114086
   },
   {
     "pin": "16093080260000",
@@ -5314,7 +5998,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.885051,
+    "sv_lng": -87.7633507
   },
   {
     "pin": "11293180050000",
@@ -5327,7 +6013,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 42.0150397,
+    "sv_lng": -87.6629973
   },
   {
     "pin": "26083310130000",
@@ -5340,7 +6028,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7034,
+    "sv_lng": -87.5340721
   },
   {
     "pin": "13261160190000",
@@ -5353,7 +6043,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9352449,
+    "sv_lng": -87.7210736
   },
   {
     "pin": "14204080250000",
@@ -5366,7 +6058,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9447022,
+    "sv_lng": -87.6566838
   },
   {
     "pin": "25034250240000",
@@ -5379,7 +6073,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7236487,
+    "sv_lng": -87.607706
   },
   {
     "pin": "13223140030000",
@@ -5392,7 +6088,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9421944,
+    "sv_lng": -87.7439926
   },
   {
     "pin": "20363100250000",
@@ -5405,7 +6103,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7412453,
+    "sv_lng": -87.5828427
   },
   {
     "pin": "14202290370000",
@@ -5418,7 +6118,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9475539,
+    "sv_lng": -87.6519103
   },
   {
     "pin": "13094050350000",
@@ -5431,7 +6133,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9734286,
+    "sv_lng": -87.7556082
   },
   {
     "pin": "13162300320000",
@@ -5444,7 +6148,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9610094,
+    "sv_lng": -87.748761
   },
   {
     "pin": "13172070200000",
@@ -5457,7 +6163,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9665766,
+    "sv_lng": -87.7698873
   },
   {
     "pin": "13083110380000",
@@ -5470,7 +6178,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9726737,
+    "sv_lng": -87.7818743
   },
   {
     "pin": "16024180080000",
@@ -5483,7 +6193,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8984863,
+    "sv_lng": -87.7127538
   },
   {
     "pin": "13171090450000",
@@ -5496,7 +6208,9 @@
     "stories": null,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9646726,
+    "sv_lng": -87.7848466
   },
   {
     "pin": "17092170170000",
@@ -5509,7 +6223,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8943917,
+    "sv_lng": -87.6341461
   },
   {
     "pin": "12013150270000",
@@ -5522,7 +6238,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9840515,
+    "sv_lng": -87.8180686
   },
   {
     "pin": "13161200030000",
@@ -5535,7 +6253,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9627184,
+    "sv_lng": -87.7624079
   },
   {
     "pin": "10324110590000",
@@ -5548,7 +6268,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 42.0027598,
+    "sv_lng": -87.7764773
   },
   {
     "pin": "13122030160000",
@@ -5561,7 +6283,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9831424,
+    "sv_lng": -87.6939712
   },
   {
     "pin": "19233000120000",
@@ -5574,7 +6298,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7714056,
+    "sv_lng": -87.7217553
   },
   {
     "pin": "11312220300000",
@@ -5587,7 +6313,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 42.0070896,
+    "sv_lng": -87.6700123
   },
   {
     "pin": "19233020540000",
@@ -5600,7 +6328,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7714786,
+    "sv_lng": -87.7164281
   },
   {
     "pin": "14293180210000",
@@ -5613,7 +6343,9 @@
     "stories": 3,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9260899,
+    "sv_lng": -87.6660793
   },
   {
     "pin": "13232130040000",
@@ -5626,7 +6358,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9517026,
+    "sv_lng": -87.7128488
   },
   {
     "pin": "25014100510000",
@@ -5639,7 +6373,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7264447,
+    "sv_lng": -87.5717986
   },
   {
     "pin": "19263230590000",
@@ -5652,7 +6388,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7528644,
+    "sv_lng": -87.7174456
   },
   {
     "pin": "26171040220000",
@@ -5665,7 +6403,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7009185,
+    "sv_lng": -87.5349184
   },
   {
     "pin": "13123180030000",
@@ -5678,7 +6418,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9718575,
+    "sv_lng": -87.7012376
   },
   {
     "pin": "13241250250000",
@@ -5691,7 +6433,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9477375,
+    "sv_lng": -87.7054013
   },
   {
     "pin": "16092270030000",
@@ -5704,7 +6448,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8889367,
+    "sv_lng": -87.7517131
   },
   {
     "pin": "13364090210000",
@@ -5717,7 +6463,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9139255,
+    "sv_lng": -87.6967408
   },
   {
     "pin": "19013070190000",
@@ -5730,7 +6478,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8140777,
+    "sv_lng": -87.696832
   },
   {
     "pin": "14051180220000",
@@ -5743,7 +6493,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9935989,
+    "sv_lng": -87.6636674
   },
   {
     "pin": "17044400190000",
@@ -5756,7 +6508,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8979593,
+    "sv_lng": -87.6324304
   },
   {
     "pin": "13133140080000",
@@ -5769,7 +6523,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9586072,
+    "sv_lng": -87.7008269
   },
   {
     "pin": "13191230190000",
@@ -5782,7 +6538,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9485823,
+    "sv_lng": -87.7997485
   },
   {
     "pin": "21313040170000",
@@ -5795,7 +6553,9 @@
     "stories": 1,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7433339,
+    "sv_lng": -87.5612458
   },
   {
     "pin": "13354110320000",
@@ -5808,7 +6568,9 @@
     "stories": 3,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9146984,
+    "sv_lng": -87.7069686
   },
   {
     "pin": "13254280140000",
@@ -5821,7 +6583,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9266812,
+    "sv_lng": -87.6917239
   },
   {
     "pin": "19141150170000",
@@ -5834,7 +6598,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7906344,
+    "sv_lng": -87.7140047
   },
   {
     "pin": "19264100100000",
@@ -5847,7 +6613,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7524642,
+    "sv_lng": -87.7073526
   },
   {
     "pin": "19192010130000",
@@ -5860,7 +6628,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7775796,
+    "sv_lng": -87.7873196
   },
   {
     "pin": "26051120520000",
@@ -5873,7 +6643,9 @@
     "stories": 3,
     "type_label": "Small multifamily (6 units)",
     "type_key": "small-multifamily",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7286537,
+    "sv_lng": -87.5442512
   },
   {
     "pin": "21301050050000",
@@ -5886,7 +6658,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.762944,
+    "sv_lng": -87.5650584
   },
   {
     "pin": "25034150040000",
@@ -5899,7 +6673,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7265462,
+    "sv_lng": -87.6089467
   },
   {
     "pin": "17064360090000",
@@ -5912,7 +6688,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.895964,
+    "sv_lng": -87.6738465
   },
   {
     "pin": "13324120350000",
@@ -5925,7 +6703,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9096129,
+    "sv_lng": -87.771473
   },
   {
     "pin": "20111110190000",
@@ -5938,7 +6718,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8041483,
+    "sv_lng": -87.6002741
   },
   {
     "pin": "13072080130000",
@@ -5951,7 +6733,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9804363,
+    "sv_lng": -87.797405
   },
   {
     "pin": "26182060440000",
@@ -5964,7 +6748,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.6995223,
+    "sv_lng": -87.5425622
   },
   {
     "pin": "13211060370000",
@@ -5977,7 +6763,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9514155,
+    "sv_lng": -87.7600727
   },
   {
     "pin": "13254000300000",
@@ -5990,7 +6778,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9311599,
+    "sv_lng": -87.6964082
   },
   {
     "pin": "13284140310000",
@@ -6003,7 +6793,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9278643,
+    "sv_lng": -87.7497175
   },
   {
     "pin": "26083310140000",
@@ -6016,7 +6808,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.703331,
+    "sv_lng": -87.5340721
   },
   {
     "pin": "16082000260000",
@@ -6029,7 +6823,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8938246,
+    "sv_lng": -87.7731893
   },
   {
     "pin": "14203190170000",
@@ -6042,7 +6838,9 @@
     "stories": 3,
     "type_label": "Small multifamily (4 units)",
     "type_key": "small-multifamily",
-    "style": null
+    "style": null,
+    "sv_lat": 41.943472,
+    "sv_lng": -87.6602768
   },
   {
     "pin": "16091000090000",
@@ -6055,7 +6853,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8936738,
+    "sv_lng": -87.7653427
   },
   {
     "pin": "16022270400000",
@@ -6068,7 +6868,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9028092,
+    "sv_lng": -87.7096313
   },
   {
     "pin": "19154160250000",
@@ -6081,7 +6883,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7817608,
+    "sv_lng": -87.7301771
   },
   {
     "pin": "19122190020000",
@@ -6094,7 +6898,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8028642,
+    "sv_lng": -87.6912613
   },
   {
     "pin": "13144080150000",
@@ -6107,7 +6913,9 @@
     "stories": null,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9580291,
+    "sv_lng": -87.7179447
   },
   {
     "pin": "19153130120000",
@@ -6120,7 +6928,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7832958,
+    "sv_lng": -87.7338941
   },
   {
     "pin": "14071110390000",
@@ -6133,7 +6943,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9787613,
+    "sv_lng": -87.6798621
   },
   {
     "pin": "13173150380000",
@@ -6146,7 +6958,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9566762,
+    "sv_lng": -87.778472
   },
   {
     "pin": "13202050300000",
@@ -6159,7 +6973,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9512729,
+    "sv_lng": -87.7722102
   },
   {
     "pin": "25044090070000",
@@ -6172,7 +6988,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7242956,
+    "sv_lng": -87.6275228
   },
   {
     "pin": "13361020010000",
@@ -6185,7 +7003,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9247827,
+    "sv_lng": -87.7018909
   },
   {
     "pin": "13144080390000",
@@ -6198,7 +7018,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9578418,
+    "sv_lng": -87.7167237
   },
   {
     "pin": "14321090010000",
@@ -6211,7 +7033,9 @@
     "stories": 3,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9234073,
+    "sv_lng": -87.664143
   },
   {
     "pin": "25021130060000",
@@ -6224,7 +7048,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7307633,
+    "sv_lng": -87.6025415
   },
   {
     "pin": "26051080510000",
@@ -6237,7 +7063,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.731248,
+    "sv_lng": -87.5443128
   },
   {
     "pin": "20102040170000",
@@ -6250,7 +7078,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8082634,
+    "sv_lng": -87.6101849
   },
   {
     "pin": "11293200260000",
@@ -6263,7 +7093,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 42.0128052,
+    "sv_lng": -87.6661115
   },
   {
     "pin": "13334130720000",
@@ -6276,7 +7108,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9123231,
+    "sv_lng": -87.7499184
   },
   {
     "pin": "14074090480000",
@@ -6289,7 +7123,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.973383,
+    "sv_lng": -87.6730619
   },
   {
     "pin": "20044300040000",
@@ -6302,7 +7138,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8117492,
+    "sv_lng": -87.6326353
   },
   {
     "pin": "13324070150000",
@@ -6315,7 +7153,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9116487,
+    "sv_lng": -87.7727897
   },
   {
     "pin": "13251030080000",
@@ -6328,7 +7168,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9393825,
+    "sv_lng": -87.7018945
   },
   {
     "pin": "13171090460000",
@@ -6341,7 +7183,9 @@
     "stories": null,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9646726,
+    "sv_lng": -87.7848474
   },
   {
     "pin": "19134140080000",
@@ -6354,7 +7198,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7839913,
+    "sv_lng": -87.6862089
   },
   {
     "pin": "13212140070000",
@@ -6367,7 +7213,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9506312,
+    "sv_lng": -87.7513637
   },
   {
     "pin": "13283280300000",
@@ -6380,7 +7228,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9250136,
+    "sv_lng": -87.7598626
   },
   {
     "pin": "20021170090000",
@@ -6393,7 +7243,9 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8189031,
+    "sv_lng": -87.6011636
   },
   {
     "pin": "13093110210000",
@@ -6406,7 +7258,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9725868,
+    "sv_lng": -87.7644014
   },
   {
     "pin": "13054000010000",
@@ -6419,7 +7273,9 @@
     "stories": 3,
     "type_label": "Three-flat",
     "type_key": "three-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9902122,
+    "sv_lng": -87.7776563
   },
   {
     "pin": "17043250620000",
@@ -6432,7 +7288,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8967411,
+    "sv_lng": -87.6416715
   },
   {
     "pin": "13131180160000",
@@ -6445,7 +7303,9 @@
     "stories": 2,
     "type_label": "Two-flat",
     "type_key": "two-flat",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9635305,
+    "sv_lng": -87.707093
   },
   {
     "pin": "19173260330000",
@@ -6458,7 +7318,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.7777156,
+    "sv_lng": -87.7789679
   },
   {
     "pin": "19114050060000",
@@ -6471,7 +7333,9 @@
     "stories": 1,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8008096,
+    "sv_lng": -87.7055467
   },
   {
     "pin": "14313280450000",
@@ -6484,7 +7348,9 @@
     "stories": null,
     "type_label": "Apartment building (7+ units)",
     "type_key": "apartment",
-    "style": null
+    "style": null,
+    "sv_lat": 41.9103715,
+    "sv_lng": -87.6844314
   },
   {
     "pin": "17343280360000",
@@ -6497,6 +7363,8 @@
     "stories": 2,
     "type_label": "Single-family",
     "type_key": "single-family",
-    "style": null
+    "style": null,
+    "sv_lat": 41.8264915,
+    "sv_lng": -87.6238632
   }
 ]
